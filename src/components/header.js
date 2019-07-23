@@ -7,56 +7,64 @@ const Header = ({ siteTitle }) => (
     style={{
       background: `#333`,
       marginBottom: `1.45rem`,
-    }}>
+    }}
+  >
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
-      }}>
+      }}
+    >
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
             color: `white`,
             textDecoration: `none`,
-          }}>
+          }}
+        >
           {siteTitle}
         </Link>
       </h1>
-      <ul style={{
+      <ul
+        style={{
           float: `right`,
           marginTop: -30,
-          listStyleType: `none`
-        }}>
-        <li style={{
-          display: `inline`,
-          paddingRight: 7,
-        }}>
-        <Link
-        to="/"
-        style={{
-          textDecoration: `none`,
-        }}>
-        Home
-      </Link>
+          listStyleType: `none`,
+        }}
+      >
+        <li
+          style={{
+            display: `inline`,
+            paddingRight: 7,
+          }}
+        >
+          <Link
+            to="/"
+            style={{
+              textDecoration: `none`,
+            }}
+          >
+            Home
+          </Link>
         </li>
-        <li style={{
-          display: `inline`,
-          paddingLeft: 7,
-        }}>
-        <Link
-        to="/page-2/"
-        style={{
-          textDecoration: `none`,
-        }}>
-        About
-      </Link>
-
+        <li
+          style={{
+            display: `inline`,
+            paddingLeft: 7,
+          }}
+        >
+          <Link
+            to="/page-2/"
+            style={{
+              textDecoration: `none`,
+            }}
+          >
+            Contact
+          </Link>
         </li>
       </ul>
-      
-      
     </div>
   </header>
 )
