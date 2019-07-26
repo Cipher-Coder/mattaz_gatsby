@@ -21,6 +21,8 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "@iconify/icons-simple-line-icons": "^1.0.0",
+    "@iconify/react": "^1.1.1",
     "prettier": "^1.18.2"
   },
   "keywords": [

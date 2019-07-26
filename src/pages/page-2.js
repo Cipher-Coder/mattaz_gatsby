@@ -19,6 +19,7 @@ const SecondPage = () => (
         display: "block",
         marginLeft: "auto",
         marginRight: "auto",
+        paddingBottom: "20px",
       }}
     >
       <iframe
@@ -36,7 +37,10 @@ const SecondPage = () => (
       ></iframe>
     </div>
 
-    <Link to="/" style={{ display: `block`, textAlign: `center` }}>
+    <Link
+      to="/"
+      style={{ display: `block`, textAlign: `center`, paddingBottom: `20px` }}
+    >
       Go back to the homepage
     </Link>
   </Layout>

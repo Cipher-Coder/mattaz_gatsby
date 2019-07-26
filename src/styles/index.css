@@ -3,8 +3,8 @@
 }
 
 .intro {
-  padding-top: 120px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
@@ -16,8 +16,8 @@
 }
 
 .clean-block {
-  padding: 10px 20px 60px;
-  margin: 4.5rem;
+  padding: 10px 20px 40px;
+  margin: 3.5rem;
 }
 
 .light-blue {
@@ -29,11 +29,16 @@
   opacity: 0.7;
 }
 
-.carousel-section {
+.carousel-info {
   display: block;
   margin-right: auto;
   margin-left: auto;
   max-width: 960px;
   text-align: center;
+  padding-bottom: 45px;
+  padding-top: 60px;
 }
 
+.carousel-section {
+  background-color: #f6f6f6;
+}
