@@ -34,14 +34,13 @@ const SecondPage = () => (
           border: `none`,
           padding: `30px 0 0 65px`,
         }}
-      ></iframe>
+      />
     </div>
-
     <Link
       to="/"
       style={{ display: `block`, textAlign: `center`, paddingBottom: `20px` }}
     >
-      Go back to the homepage
+      Go back to the Homepage
     </Link>
   </Layout>
 )
