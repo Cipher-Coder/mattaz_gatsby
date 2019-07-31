@@ -56,7 +56,7 @@ const Header = ({ siteTitle }) => (
           }}
         >
           <Link
-            to="/page-2/"
+            to="/contact/"
             style={{
               textDecoration: `none`,
             }}

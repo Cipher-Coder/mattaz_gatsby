@@ -50,7 +50,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="clean-block">
+    <section className="clean-block cta-section">
       <CtaBlock />
     </section>
     <section className="carousel-section">
