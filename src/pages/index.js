@@ -16,7 +16,7 @@ const IndexPage = () => (
       h1Text="Mattaz Web Design"
       h3Text="Because Every Detail 'Mattaz'"
     />
-    <section className="first-section">
+    <section className="intro-section">
       <div className="intro">
         <h1 className="light-blue">What we do...</h1>
         <p className="intro-text">

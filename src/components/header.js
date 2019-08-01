@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
         <li
           style={{
             display: `inline`,
-            paddingRight: 7,
+            paddingRight: 10,
           }}
         >
           <Link
@@ -47,6 +47,21 @@ const Header = ({ siteTitle }) => (
             }}
           >
             Home
+          </Link>
+        </li>
+        <li
+          style={{
+            display: `inline`,
+            paddingRight: 7,
+          }}
+        >
+          <Link
+            to="/devtabs/"
+            style={{
+              textDecoration: `none`,
+            }}
+          >
+            Dev Tabs
           </Link>
         </li>
         <li
