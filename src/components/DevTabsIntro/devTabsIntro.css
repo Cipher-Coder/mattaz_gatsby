@@ -1,5 +1,7 @@
 .intro-container {
   margin-bottom: 30px;
+  animation-duration: 2s;
+  animation-name: slidein;
 }
 
 .devTabs-intro {
@@ -24,4 +26,15 @@
 
 .intro-screenshot {
   border-radius: 6px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 300%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }

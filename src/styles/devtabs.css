@@ -38,3 +38,50 @@
 .first-paragraph {
   margin: 50px 30px 50px 80px;
 }
+
+.github {
+  margin-left: 80px;
+}
+
+.dev-to {
+  margin-left: 240px;
+}
+
+.weather {
+  margin-left: 380px;
+}
+
+.desc-text {
+  opacity: 0.8;
+}
+
+.bookmark {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+.evenMore {
+  background-color: #dbdbdb;
+}
+
+.more-heading {
+  padding-top: 65px;
+  padding-bottom: 30px;
+}
+
+.evenMore-img {
+  margin-top: 80px;
+  margin-bottom: 150px;
+  border-radius: 6px;
+}
