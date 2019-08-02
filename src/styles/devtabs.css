@@ -28,3 +28,13 @@
 .info-section {
   margin-top: 120px;
 }
+
+.bookmark-image {
+  margin: 75px 20px 0 30px;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+.first-paragraph {
+  margin: 50px 30px 50px 80px;
+}
