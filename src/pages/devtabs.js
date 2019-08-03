@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import DevTabsIntro from "../components/DevTabsIntro/devTabsIntro"
+import TrackingCard from "../components/card"
 import "../styles/devtabs.css"
 import logo from "../images/devTabsLogo.png"
 import bookmark from "../images/3d-bookmarks.png"
@@ -10,6 +11,7 @@ import github from "../images/github-3d.png"
 import devTo from "../images/thepracticaldev.png"
 import weather from "../images/theWeather.png"
 import screenshot2 from "../images/screenshot2.png"
+import qrImg from "../images/screenshot3.png"
 import MyImage from "../components/myImage"
 
 const DevTabsPage = () => (
@@ -112,6 +114,33 @@ const DevTabsPage = () => (
             className="evenMore-img"
             alt="Dev Tabs Screenshot"
           />
+          <h3 className="qr-heading">QR Code Generation</h3>
+        </div>
+        <div className="row qrCode-info">
+          <img
+            src={qrImg}
+            alt="QR code generator"
+            className="img-responsive col-sm-6 qr-img"
+          />
+          <div className="qr-explain col-sm-5">
+            <h4 className="qr-title">QR Code Generator</h4>
+            <p className="qr-text">
+              So many times I am in the middle of reading an article or watching
+              a tutorial and I have to stop what I am doing and go do something
+              else. This was the main inspiration behind this tool. I work from
+              home and everyday, at 2:15pm, I have to stop what I am doing and
+              go pick up my kids from school. I have to wait on line for usually
+              around 30 mins, just sitting, with the car off. Now, if I am in
+              the middle of reading something, I can click the icon button in
+              the toolbar and copy the url of whatever site I am on and create a
+              QR Code that I can scan with my phone and take with me. Then while
+              waiting to pick the kids up, I can continue to read whatever it
+              was I was working on.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <TrackingCard />
         </div>
       </div>
     </section>

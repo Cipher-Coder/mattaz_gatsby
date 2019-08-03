@@ -82,6 +82,30 @@
 
 .evenMore-img {
   margin-top: 80px;
-  margin-bottom: 150px;
+  margin-bottom: 130px;
   border-radius: 6px;
+}
+
+.qr-heading {
+  margin: 5px auto 50px;
+}
+
+.qr-img {
+  margin-right: 35px;
+}
+
+.qr-title {
+  margin-top: 18px;
+}
+
+.qr-explain {
+  margin: 15px 0 40px 35px;
+  margin-bottom: 40px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+.qrCode-info {
+  margin-bottom: 50px;
 }
