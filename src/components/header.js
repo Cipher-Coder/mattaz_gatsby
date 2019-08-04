@@ -45,6 +45,7 @@ const Header = ({ siteTitle }) => (
             style={{
               textDecoration: `none`,
             }}
+            activeStyle={{ color: "#92b6db" }}
           >
             Home
           </Link>
@@ -60,6 +61,7 @@ const Header = ({ siteTitle }) => (
             style={{
               textDecoration: `none`,
             }}
+            activeStyle={{ color: "#92b6db" }}
           >
             Dev Tabs
           </Link>
@@ -75,6 +77,7 @@ const Header = ({ siteTitle }) => (
             style={{
               textDecoration: `none`,
             }}
+            activeStyle={{ color: "#92b6db" }}
           >
             Contact
           </Link>

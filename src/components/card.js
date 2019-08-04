@@ -8,7 +8,7 @@ const TrackingCard = () => {
   return (
     <Card
       className="text-center"
-      style={{ marginTop: `60px`, marginBottom: `60px` }}
+      style={{ marginTop: `70px`, marginBottom: `70px` }}
     >
       <Card.Header>Dev Tabs Privacy Policy</Card.Header>
       <Card.Body>
@@ -33,7 +33,18 @@ const TrackingCard = () => {
           and contribute. If you get any use out of this and want to buy me a
           coffee... It would be greatly appreciated. The link is below.
         </Card.Text>
-        <Button variant="primary" size="sm" href="https://paypal.me/CipherCoder?locale.x=en_US" target="_blank" rel="noopener noreferrer">Buy Me a &#9749;</Button>
+        <Button
+          variant="primary"
+          size="sm"
+          href="https://paypal.me/CipherCoder?locale.x=en_US"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Buy Me a{" "}
+          <span role="img" aria-label="Coffee Cup">
+            &#9749;
+          </span>
+        </Button>
       </Card.Body>
       <Card.Footer className="text-center">
         <a
@@ -41,7 +52,7 @@ const TrackingCard = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={gitHubIcon} alt="GitHub Icon" style={{}}/>
+          <img src={gitHubIcon} alt="GitHub Icon" />
         </a>
       </Card.Footer>
     </Card>

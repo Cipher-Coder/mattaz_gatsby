@@ -1,9 +1,12 @@
 import React from "react"
+import Button from "react-bootstrap/Button"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import DevTabsIntro from "../components/DevTabsIntro/devTabsIntro"
 import TrackingCard from "../components/card"
+import MyImage from "../components/myImage"
+
 import "../styles/devtabs.css"
 import logo from "../images/devTabsLogo.png"
 import bookmark from "../images/3d-bookmarks.png"
@@ -12,7 +15,6 @@ import devTo from "../images/thepracticaldev.png"
 import weather from "../images/theWeather.png"
 import screenshot2 from "../images/screenshot2.png"
 import qrImg from "../images/screenshot3.png"
-import MyImage from "../components/myImage"
 
 const DevTabsPage = () => (
   <Layout>
@@ -32,9 +34,9 @@ const DevTabsPage = () => (
     <section className="info-section">
       <div className="container-fluid">
         <div className="row">
-          <h3 className="font-weight-bold m-auto">
+          <h2 className="font-weight-bold m-auto">
             Dev Tabs Browser Extension
-          </h3>
+          </h2>
         </div>
         <div className="row">
           <MyImage
@@ -106,15 +108,15 @@ const DevTabsPage = () => (
     <section className="evenMore">
       <div className="container">
         <div className="row">
-          <h3 className="font-weight-bold m-auto more-heading">
+          <h2 className="font-weight-bold m-auto more-heading">
             Check it out... Even More!
-          </h3>
+          </h2>
           <img
             src={screenshot2}
             className="evenMore-img"
             alt="Dev Tabs Screenshot"
           />
-          <h3 className="qr-heading">QR Code Generation</h3>
+          <h2 className="qr-heading">QR Code Generation</h2>
         </div>
         <div className="row qrCode-info">
           <img
@@ -141,6 +143,25 @@ const DevTabsPage = () => (
         </div>
         <div className="row">
           <TrackingCard />
+        </div>
+        <div className="row">
+          <h3 className="link-heading">Download Extension</h3>
+        </div>
+        <div className="row download-links">
+          <Button
+            className="download-button"
+            variant="primary"
+            href="https://chrome.google.com/webstore/detail/dev-tabs/ghkccmckjecalghejidolggalehgbcnj"
+          >
+            Download Chrome Extension
+          </Button>
+          <Button
+            className="download-button"
+            variant="primary"
+            href="https://addons.mozilla.org/en-US/firefox/addon/dev-tabs/"
+          >
+            Download Firefox Extension
+          </Button>
         </div>
       </div>
     </section>

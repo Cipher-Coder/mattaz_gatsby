@@ -5,7 +5,7 @@ import screenshot from "../../images/screenshot.png"
 const DevTabsIntro = () => {
   return (
     <div className="row intro-container">
-      <div className="devTabs-intro col-sm-4">
+      <div className="devTabs-intro col-md-6 col-lg-4">
         <h2>Mattaz Web Development's</h2>
         <h3>Dev Tabs Chrome Extension</h3>
         <p className="devtabs-intro-text">
@@ -23,7 +23,7 @@ const DevTabsIntro = () => {
           into work mode.{" "}
         </p>
       </div>
-      <div className="intro-image col-sm-8">
+      <div className="intro-image col-md-6 col-lg-8">
         <img
           className="img-responsive intro-screenshot"
           src={screenshot}

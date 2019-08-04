@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import Carousel from "../components/carousel"
 import Hero from "../components/Hero/hero"
 import CtaBlock from "../components/CtaBlock/CtaBlock"
+import { Link } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
@@ -47,6 +48,9 @@ const IndexPage = () => (
             We design cleanly coded, responsive websites to aid in your
             business's discovery, credibility, and long term marketing strategy.
           </p>
+          <Link to="/contact/" className="button btn btn-primary">
+            Contact Us!
+          </Link>
         </div>
       </div>
     </section>
