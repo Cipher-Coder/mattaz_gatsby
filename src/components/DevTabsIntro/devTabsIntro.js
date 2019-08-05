@@ -1,8 +1,13 @@
 import React from "react"
 import "../DevTabsIntro/devTabsIntro.css"
 import screenshot from "../../images/screenshot.png"
+import Modal from "react-bootstrap/Modal"
 
 const DevTabsIntro = () => {
+  const [show, setShow] = React.useState(false)
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
+
   return (
     <div className="row intro-container">
       <div className="devTabs-intro col-md-6 col-lg-4">
@@ -28,8 +33,15 @@ const DevTabsIntro = () => {
           className="img-responsive intro-screenshot"
           src={screenshot}
           alt="Screenshot of the Dev Tabs Extension"
+          onClick={handleShow}
         />
       </div>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton></Modal.Header>
+        <Modal.Body onClick={handleClose}>
+          <img src={screenshot} alt="Dev Tabs extension" />
+        </Modal.Body>
+      </Modal>
     </div>
   )
 }

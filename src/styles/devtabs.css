@@ -55,22 +55,6 @@
   opacity: 0.8;
 }
 
-.bookmark {
-  animation-duration: 1s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-right: 100%;
-    width: 300%;
-  }
-  to {
-    margin-right: 0%;
-    width: 100%;
-  }
-}
-
 .evenMore {
   background-color: #dbdbdb;
 }
@@ -126,13 +110,13 @@
   .intro-devtabs {
     height: 1050px;
   }
-  .github {
-    margin-right: 5px;
+  .weather {
+    margin-left: 5px;
   }
   .dev-to {
-    margin-right: 5px;
+    margin-left: 5px;
   }
-  .weather {
-    margin-right: 5px;
+  .github {
+    margin-left: 5px;
   }
 }
