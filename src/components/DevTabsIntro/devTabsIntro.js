@@ -36,10 +36,14 @@ const DevTabsIntro = () => {
           onClick={handleShow}
         />
       </div>
-      <Modal show={show} onHide={handleClose}>
+      <Modal size="xl" className="modal-total" show={show} onHide={handleClose}>
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body onClick={handleClose}>
-          <img src={screenshot} alt="Dev Tabs extension" />
+          <img
+            className="modal-img"
+            src={screenshot}
+            alt="Dev Tabs extension"
+          />
         </Modal.Body>
       </Modal>
     </div>

@@ -67,15 +67,7 @@ const DevTabsPage = () => (
             myUrl={github}
             alt={"Bookmarks folder"}
             title={"GitHub:"}
-            content={`I have included two different aspects of Github on the Dev Tabs page. First, is the Github commit graph.
-                When you first install the extension, go to the settings page, and on the left, click the option to
-                enter your Github Username. Once entered, click save and when you go back to the Dev Tabs page, your
-                Github commit graph will show up in the middle of the page. When I did the 100 days of code, I tracked
-                my progress using Github and commiting something everyday. I liked to see my progress and got used to
-                see the graph, so I included it on here. Also you will see on the right hand side of the page a space
-                for your top 10 Github repos. Again, you will configure this in the settings page by entering your
-                Github username for the Github repos. I left this as two separate options as you may have more than one
-                account and want to see the graph from one account and repos from a different one or vice versa.`}
+            content={`I have included two different aspects of Github on the Dev Tabs page. First, is the Github commit graph. When you first install the extension, go to the settings page, and on the left, click the option to enter your Github Username. Once entered, click save and when you go back to the Dev Tabs page, your Github commit graph will show up in the middle of the page. When I did the 100 days of code, I tracked my progress using Github and commiting something everyday. I liked to see my progress and got used to see the graph, so I included it on here. Also you will see on the right hand side of the page a space for your top 10 Github repos. Again, you will configure this in the settings page by entering your Github username for the Github repos. I left this as two separate options as you may have more than one account and want to see the graph from one account and repos from a different one or vice versa.`}
           />
           <MyImage
             divClass={"row dev-to"}
@@ -91,16 +83,7 @@ const DevTabsPage = () => (
             myUrl={weather}
             alt={"Bookmarks folder"}
             title={"Weather:"}
-            content={`The weather is pretty self explanatory. I used the Open Weather Map Api to fetch the current conditions for your
-                location. To set your location, go to the settings page, click the 'Weather' option and just click the
-                button to get your current location. On the first time, it will ask your permission to acquire your
-                location. Once you click 'ok', it will fetch your coordinates with the HTML Geolocation api and store
-                them in Chrome's local storage. It will then make the api call to Open Weather Map, get your weather,
-                and display it. Just be advised... this extension does not track you in any way. It stores your
-                coordinates in local storage, on your machine and your machine only. Which means, if you move locations
-                and want your weather display to reflect that, you will need to go back into your weather settings and
-                click the button to get your current location. It will then rewrite the data and store your updated
-                coordinates`}
+            content={`The weather is pretty self explanatory. I used the Open Weather Map Api to fetch the current conditions for your location. To set your location, go to the settings page, click the 'Weather' option and just click the button to get your current location. On the first time, it will ask your permission to acquire your location. Also, use the toggle switch to choose your unit of measure (MPH or KPH). Once you click 'ok', it will fetch your coordinates with the HTML Geolocation api and store them in Chrome's local storage. It will then make the api call to Open Weather Map, get your weather, and display it. Just be advised... this extension does not track you in any way. It stores your coordinates in local storage, on your machine and your machine only. Which means, if you move locations and want your weather display to reflect that, you will need to go back into your weather settings and click the button to get your current location. It will then rewrite the data and store your updated coordinates`}
           />
         </div>
       </div>

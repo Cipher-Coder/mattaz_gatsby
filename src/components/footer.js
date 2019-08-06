@@ -7,7 +7,7 @@ function Footer() {
       style={{
         textAlign: `center`,
         backgroundColor: `#333`,
-        color: `white`,
+        color: `#e2e2e2`,
         padding: `.9rem`,
         fontSize: `.75rem`,
       }}
@@ -15,7 +15,7 @@ function Footer() {
       © {new Date().getFullYear()}, Built with
       {` `}
       <a href="https://www.gatsbyjs.org">Gatsby</a>, By:{" "}
-      <a href="https://mattaz.com">Mattaz Web Design</a>,
+      <a href="https://mattaz.com">Mattaz Web Design</a>
     </footer>
   )
 }
