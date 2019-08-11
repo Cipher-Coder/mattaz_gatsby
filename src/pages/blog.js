@@ -9,7 +9,7 @@ import Card from "react-bootstrap/Card"
 const BlogPage = ({ data }) => (
   <Layout>
     <SEO title="Mattaz Blog" />
-    <div className="container">
+    <div className="container bloglist-container">
       <div className="row bloglist-title">
         <h1 className="text-center">Latest Posts:</h1>
       </div>
@@ -24,9 +24,7 @@ const BlogPage = ({ data }) => (
                     Posted On: {post.node.frontmatter.date}
                   </Card.Subtitle>
                   <Card.Text>{post.node.excerpt}</Card.Text>
-                  <Card.Link>
-                    <Link to={post.node.frontmatter.path}>Read More...</Link>
-                  </Card.Link>
+                  <Link to={post.node.frontmatter.path}>Read More...</Link>
                 </Card.Body>
                 <Card.Footer>By: {post.node.frontmatter.author}</Card.Footer>
               </Card>

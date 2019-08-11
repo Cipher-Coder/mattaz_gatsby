@@ -1,7 +1,30 @@
 .start-cards {
   margin: 10px;
+  box-shadow: 8px 8px 5px 0 rgba(0, 0, 0, 0.75);
 }
 
 .bloglist-title {
   margin: 20px auto 25px;
+}
+
+.bloglist-container {
+  margin-bottom: 55px;
+}
+
+.article-container {
+  display: block;
+  max-width: 960px;
+  margin: 35px auto 65px;
+}
+
+.article-container h1 {
+  color: #000000;
+}
+
+.article-author {
+  font-size: 0.9rem;
+}
+
+.article-title {
+  color: #000000;
 }

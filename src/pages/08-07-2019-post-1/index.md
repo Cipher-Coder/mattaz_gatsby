@@ -5,7 +5,7 @@ title: "First Blog Post"
 author: "Matthew Rebehn"
 ---
 
-## All About My Blog -
+# All About My Blog -
 
 This is the start of my blog posts. I will be writing on different topics that may interest people that are looking for information on new websites.
 

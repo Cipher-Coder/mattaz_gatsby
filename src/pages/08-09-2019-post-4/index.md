@@ -1,7 +1,7 @@
 ---
 path: "/post-4"
 date: "08-09-2019"
-title: "Forward Gmail to Another Email"
+title: "Forwarding Your Gmail"
 author: "Matthew Rebehn"
 ---
 # How to forward your Gmail to anther email - 
