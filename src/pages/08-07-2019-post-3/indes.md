@@ -3,6 +3,7 @@ path: "/post-3"
 date: "08-07-2019"
 title: "Zoho Form Responses"
 author: "Matthew Rebehn"
+cover_image: "./zohoLogo.jpg"
 ---
 
 # Fetching and Examining your Zoho Form Responses -

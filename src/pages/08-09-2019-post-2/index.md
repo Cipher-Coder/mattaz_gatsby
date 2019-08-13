@@ -3,6 +3,7 @@ path: "/post-2"
 date: "08-09-2019"
 title: "Clear Cookies in Chrome"
 author: "Matthew Rebehn"
+cover_image: "./chromeLogo.jpg"
 ---
 
 # Clear Cookies in Chrome so you can see updated website -

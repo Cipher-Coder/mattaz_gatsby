@@ -47,6 +47,9 @@ export const pageQuery = graphql`
             title
             date
             author
+            cover_image {
+              id
+            }
           }
           excerpt
         }

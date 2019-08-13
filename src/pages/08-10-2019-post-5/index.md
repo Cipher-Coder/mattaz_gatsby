@@ -3,11 +3,10 @@ path: "/post-5"
 date: "08-10-2019"
 title: "Export Contacts from TDS"
 author: "Matthew Rebehn"
+cover_image: "./tdsLogo.jpg"
 ---
 
-![TDS Logo](./tdsLogo.jpg)
-
-# Export your contacts from TDS mail to Thunderbird - 
+# Export your contacts from TDS mail to Thunderbird -
 
 If we set you up with Thunderbird you will need to export your contacts from TDS. This is a fairly simple and straight forward process. This will guide you through the process. To get started, use what ever browser you have set up and login to your TDS webmail.
 

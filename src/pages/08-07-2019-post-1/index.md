@@ -3,6 +3,7 @@ path: "/post-1"
 date: "08-07-2019"
 title: "First Blog Post"
 author: "Matthew Rebehn"
+cover_image: "./mattaz-icon.png"
 ---
 
 # All About My Blog -

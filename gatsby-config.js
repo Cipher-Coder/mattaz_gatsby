@@ -8,10 +8,33 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-transformer-sharp`,
+      options: {
+        stripMetadata: true,
+        defaultQuality: 90,
+      },
+    },
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-copy-linked-files`],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-remark-images`,
+      options: {
+        maxWidth: 960,
+        linkImagesToOriginal: false,
+        sizeByPixelDensity: true,
+        showCaptions: true,
       },
     },
     {
@@ -21,14 +44,6 @@ module.exports = {
         name: `pages`,
       },
     },
-    {
-      resolve: `gatsby-transformer-sharp`,
-      options: {
-        stripMetadata: true,
-        defaultQuality: 90,
-      },
-    },
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -41,7 +56,6 @@ module.exports = {
         icon: `src/images/mattaz-icon.png`,
       },
     },
-    "gatsby-transformer-remark",
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
