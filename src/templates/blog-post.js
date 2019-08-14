@@ -16,7 +16,7 @@ export default function Template({ data }) {
       <h4 className="article-author text-muted">
         Posted By: {post.frontmatter.author} on: {post.frontmatter.date}
       </h4>
-      <Img fluid={featuredImage} />
+      <Img fluid={featuredImage} style={{ maxWidth: `300px` }} />
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <Link to="/blog">&larr; Go Back to Blog</Link>
       <br />
@@ -37,12 +37,8 @@ export const postQuery = graphql`
         date
         cover_image {
           childImageSharp {
-            fluid(maxWidth: 600, quality: 90) {
-              src
-              srcSet
-              aspectRatio
-              sizes
-              base64
+            fluid(maxWidth: 300, quality: 100) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
