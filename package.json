@@ -8,10 +8,12 @@
     "bootstrap": "^4.3.1",
     "gatsby": "^2.13.31",
     "gatsby-image": "^2.2.6",
+    "gatsby-plugin-google-analytics": "^2.1.7",
     "gatsby-plugin-manifest": "^2.2.3",
     "gatsby-plugin-offline": "^2.2.4",
     "gatsby-plugin-react-helmet": "^3.1.2",
     "gatsby-plugin-sharp": "^2.2.8",
+    "gatsby-plugin-sitemap": "^2.2.6",
     "gatsby-remark-copy-linked-files": "^2.1.5",
     "gatsby-remark-images": "^3.1.8",
     "gatsby-source-filesystem": "^2.1.5",
@@ -29,7 +31,14 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "mattaz",
+    "website",
+    "blog",
+    "tech",
+    "web design",
+    "development",
+    "articles"
   ],
   "license": "MIT",
   "scripts": {

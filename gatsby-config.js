@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Mattaz Web Design`,
-    description: `Using Gatsby to build Mattaz Web Design Website.`,
+    description: `Mattaz Web Design. Small business websites at affordable prices.`,
     keywords: `Mattaz, Gatsby, React, Web, Design`,
     author: `@MRebehn`,
+    siteUrl: `https://www.mattaz.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,6 +16,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -45,6 +47,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-118247855-2",
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Mattaz Web Design`,
@@ -56,8 +64,6 @@ module.exports = {
         icon: `src/images/mattaz-icon.png`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
