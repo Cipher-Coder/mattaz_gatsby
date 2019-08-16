@@ -10,8 +10,10 @@ const TrackingCard = () => {
       className="text-center"
       style={{ marginTop: `70px`, marginBottom: `70px` }}
     >
-      <Card.Header>Dev Tabs Privacy Policy</Card.Header>
-      <Card.Body>
+      <Card.Header style={{ backgroundColor: `#fda5a5` }}>
+        Dev Tabs Privacy Policy
+      </Card.Header>
+      <Card.Body style={{ backgroundColor: `#eae7e7` }}>
         <Card.Title>
           Extension Tracking &amp; Personal Identifiable Information:
         </Card.Title>
@@ -46,7 +48,10 @@ const TrackingCard = () => {
           </span>
         </Button>
       </Card.Body>
-      <Card.Footer className="text-center">
+      <Card.Footer
+        className="text-center"
+        style={{ backgroundColor: `#fda5a5` }}
+      >
         <a
           href="https://github.com/Cipher-Coder"
           target="_blank"

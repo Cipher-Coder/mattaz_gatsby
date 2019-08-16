@@ -31,10 +31,9 @@ const ContactPage = () => (
           marginLeft: `auto`,
           marginRight: `auto`,
           display: `block`,
-          height: `880px`,
+          height: `850px`,
           width: `80%`,
           border: `none`,
-          padding: `30px 0 0 65px`,
         }}
       />
     </div>

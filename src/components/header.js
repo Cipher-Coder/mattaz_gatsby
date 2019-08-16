@@ -53,7 +53,7 @@ const Header = ({ siteTitle }) => (
         <li
           style={{
             display: `inline`,
-            paddingRight: 8,
+            paddingRight: 10,
           }}
         >
           <Link
@@ -63,7 +63,7 @@ const Header = ({ siteTitle }) => (
             }}
             activeStyle={{ color: "#92b6db" }}
           >
-            Dev Tabs
+            DevTabs
           </Link>
         </li>
         <li

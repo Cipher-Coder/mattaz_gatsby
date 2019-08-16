@@ -624,7 +624,6 @@ pre tt:after {
 .image-thumbnail {
   padding: 0.25rem;
   background-color: #f6f6f6;
-  /*  border: 1px solid #dee2e6; */
   border-radius: 0.25rem;
   height: auto;
 }
