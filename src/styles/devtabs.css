@@ -16,7 +16,9 @@
   bottom: 0;
   left: 0;
   z-index: -1;
+  -webkit-transform-origin: top right;
   transform-origin: top right;
+  -webkit-transform: skewY(-4deg);
   transform: skewY(-4deg);
 }
 
@@ -88,6 +90,7 @@
   margin-bottom: 40px;
   border: 1px solid #000;
   border-radius: 6px;
+  -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
 }
 

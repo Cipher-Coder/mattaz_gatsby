@@ -33,7 +33,7 @@ const TrackingCard = () => {
             source code
           </a>{" "}
           and contribute. If you get any use out of this and want to buy me a
-          coffee... It would be greatly appreciated. The link is below.
+          coffee... It would be greatly appreciated.
         </Card.Text>
         <Button
           variant="primary"

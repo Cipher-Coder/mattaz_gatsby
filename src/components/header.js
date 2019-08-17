@@ -1,106 +1,55 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Navbar from "react-bootstrap/Navbar"
+import Nav from "react-bootstrap/Nav"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `#333`,
-      marginBottom: `0`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-      <ul
-        style={{
-          float: `right`,
-          marginTop: -30,
-          listStyleType: `none`,
-        }}
-      >
-        <li
-          style={{
-            display: `inline`,
-            paddingRight: 10,
-          }}
-        >
+  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar.Brand href="https://mattaz.com">{siteTitle}</Navbar.Brand>
+    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    <Navbar.Collapse id="responsive-navbar-nav">
+      <Nav className="mr-auto"></Nav>
+      <Nav>
+        <Nav.Link>
           <Link
             to="/"
-            style={{
-              textDecoration: `none`,
-            }}
-            activeStyle={{ color: "#92b6db" }}
+            style={{ color: `#fff`, textDecoration: `none` }}
+            activeStyle={{ color: "#007bff" }}
           >
             Home
           </Link>
-        </li>
-        <li
-          style={{
-            display: `inline`,
-            paddingRight: 10,
-          }}
-        >
+        </Nav.Link>
+        <Nav.Link>
           <Link
             to="/devtabs/"
-            style={{
-              textDecoration: `none`,
-            }}
-            activeStyle={{ color: "#92b6db" }}
+            style={{ color: `#fff`, textDecoration: `none` }}
+            activeStyle={{ color: "#007bff" }}
           >
-            DevTabs
+            Dev Tabs
           </Link>
-        </li>
-        <li
-          style={{
-            display: `inline`,
-            paddingRight: 8,
-          }}
-        >
+        </Nav.Link>
+        <Nav.Link>
           <Link
             to="/blog/"
-            style={{
-              textDecoration: `none`,
-            }}
-            activeStyle={{ color: "#92b6db" }}
+            style={{ color: `#fff`, textDecoration: `none` }}
+            activeStyle={{ color: "#007bff" }}
           >
             Blog
           </Link>
-        </li>
-        <li
-          style={{
-            display: `inline`,
-            paddingLeft: 8,
-          }}
-        >
+        </Nav.Link>
+        <Nav.Link>
           <Link
             to="/contact/"
-            style={{
-              textDecoration: `none`,
-            }}
-            activeStyle={{ color: "#92b6db" }}
+            style={{ color: `#fff`, textDecoration: `none` }}
+            activeStyle={{ color: "#007bff" }}
           >
             Contact
           </Link>
-        </li>
-      </ul>
-    </div>
-  </header>
+        </Nav.Link>
+      </Nav>
+    </Navbar.Collapse>
+  </Navbar>
 )
 
 Header.propTypes = {

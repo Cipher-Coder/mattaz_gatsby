@@ -1,6 +1,8 @@
 .intro-container {
   margin-bottom: 30px;
+  -webkit-animation-duration: 2s;
   animation-duration: 2s;
+  -webkit-animation-name: slidein;
   animation-name: slidein;
 }
 
@@ -11,6 +13,7 @@
   text-align: center;
   margin-top: 30px;
   padding: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
 }
 
@@ -37,6 +40,17 @@
 
 .modal-content {
   background-color: rgb(236, 236, 236);
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 @keyframes slidein {
