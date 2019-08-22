@@ -105,9 +105,9 @@ const DevTabsPage = () => (
           <img
             src={qrImg}
             alt="QR code generator"
-            className="img-responsive col-sm-6 qr-img"
+            className="img-responsive col-xs-6 col-sm-8 col-md-7 col-lg-6 qr-img"
           />
-          <div className="qr-explain col-sm-5">
+          <div className="qr-explain col-xs-6 col-sm-8 col-md-7 col-lg-5">
             <h4 className="qr-title">QR Code Generator</h4>
             <p className="qr-text">
               So many times I am in the middle of reading an article or watching
@@ -124,7 +124,7 @@ const DevTabsPage = () => (
             </p>
           </div>
         </div>
-        <div className="row">
+        <div className="row tracking-card">
           <TrackingCard />
         </div>
         <div className="row">

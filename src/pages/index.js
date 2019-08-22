@@ -32,7 +32,7 @@ const IndexPage = () => (
           src={supportImage}
           alt="Computer Drawing"
         />
-        <div className="col-md-6 pl-5">
+        <div className="col-md-6 more-text-block">
           <h2 className="light-blue">More...</h2>
           <p className="support-text">
             A website is important because it helps you establish credibility as

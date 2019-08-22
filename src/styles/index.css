@@ -33,6 +33,10 @@
   opacity: 0.7;
 }
 
+.more-text-block {
+  padding-left: 3rem;
+}
+
 .carousel-info {
   display: block;
   margin-right: auto;
@@ -51,5 +55,11 @@
   .carousel-section {
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .more-text-block {
+    padding-left: 0;
   }
 }

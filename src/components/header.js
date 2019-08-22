@@ -11,42 +11,50 @@ const Header = ({ siteTitle }) => (
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mr-auto"></Nav>
       <Nav>
-        <Nav.Link>
-          <Link
-            to="/"
-            style={{ color: `#fff`, textDecoration: `none` }}
-            activeStyle={{ color: "#007bff" }}
-          >
-            Home
-          </Link>
-        </Nav.Link>
-        <Nav.Link>
-          <Link
-            to="/devtabs/"
-            style={{ color: `#fff`, textDecoration: `none` }}
-            activeStyle={{ color: "#007bff" }}
-          >
-            Dev Tabs
-          </Link>
-        </Nav.Link>
-        <Nav.Link>
-          <Link
-            to="/blog/"
-            style={{ color: `#fff`, textDecoration: `none` }}
-            activeStyle={{ color: "#007bff" }}
-          >
-            Blog
-          </Link>
-        </Nav.Link>
-        <Nav.Link>
-          <Link
-            to="/contact/"
-            style={{ color: `#fff`, textDecoration: `none` }}
-            activeStyle={{ color: "#007bff" }}
-          >
-            Contact
-          </Link>
-        </Nav.Link>
+        <Link
+          to="/"
+          style={{
+            color: `#fff`,
+            textDecoration: `none`,
+            paddingRight: `12px`,
+          }}
+          activeStyle={{ color: "#007bff" }}
+        >
+          Home
+        </Link>
+        <Link
+          to="/devtabs/"
+          style={{
+            color: `#fff`,
+            textDecoration: `none`,
+            paddingRight: `12px`,
+          }}
+          activeStyle={{ color: "#007bff" }}
+        >
+          Dev Tabs
+        </Link>
+        <Link
+          to="/blog/"
+          style={{
+            color: `#fff`,
+            textDecoration: `none`,
+            paddingRight: `12px`,
+          }}
+          activeStyle={{ color: "#007bff" }}
+        >
+          Blog
+        </Link>
+        <Link
+          to="/contact/"
+          style={{
+            color: `#fff`,
+            textDecoration: `none`,
+            paddingRight: `15px`,
+          }}
+          activeStyle={{ color: "#007bff" }}
+        >
+          Contact
+        </Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

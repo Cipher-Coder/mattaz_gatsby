@@ -21,7 +21,7 @@ const BlogPage = ({ data }) => {
                 <Card style={{ width: `18rem` }}>
                   <Card.Img
                     variant="top"
-                    style={{ maxHeight: `180px` }}
+                    style={{ height: `180px` }}
                     src={
                       post.node.frontmatter.cover_image.childImageSharp.fluid
                         .src

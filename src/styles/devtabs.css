@@ -70,6 +70,8 @@
   margin-top: 80px;
   margin-bottom: 130px;
   border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .qr-heading {
@@ -92,10 +94,12 @@
   border-radius: 6px;
   -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+  text-align: center;
 }
 
 .qrCode-info {
   margin-bottom: 50px;
+  padding: 10px;
 }
 
 .link-heading {
@@ -114,12 +118,31 @@
     height: 1050px;
   }
   .weather {
-    margin-left: 5px;
+    margin-left: -30px;
   }
   .dev-to {
-    margin-left: 5px;
+    margin-left: -30px;
   }
   .github {
-    margin-left: 5px;
+    margin-left: -30px;
+  }
+  .bookmark-image {
+    margin-left: 85px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .qr-img {
+    margin: 5px auto 10px;
+  }
+  .qr-explain {
+    margin: 15px auto 0;
+  }
+}
+
+@media only screen and (max-width: 632px) {
+  .tracking-card {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
