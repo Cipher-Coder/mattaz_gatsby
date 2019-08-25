@@ -14,7 +14,7 @@ const BlogPage = ({ data }) => {
         <div className="row bloglist-title">
           <h1 className="text-center">Latest Posts:</h1>
         </div>
-        <div className="row">
+        <div className="row card-rows">
           {data.allMarkdownRemark.edges.map(post => (
             <div key={post.node.id}>
               <div className="start-cards">

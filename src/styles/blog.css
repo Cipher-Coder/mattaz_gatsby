@@ -9,8 +9,21 @@
 }
 
 .bloglist-container {
-  margin-bottom: 55px;
+  margin: 0 auto 55px;
+  display: grid;
 }
+
+.card-rows {
+  margin: auto;
+}
+
+@media screen and (max-width: 960px) {
+  .card-rows {
+    display: block;
+  }
+}
+
+/* blog-post css*/
 
 .article-container {
   display: block;
@@ -28,4 +41,16 @@
 
 .article-title {
   color: #000000;
+}
+
+@media screen and (max-width: 960px) {
+  .article-container {
+    padding: 15px;
+  }
+  .gatsby-image-wrapper {
+    margin: auto;
+  }
+  .article-container h1 {
+    text-align: center;
+  }
 }
