@@ -1,0 +1,75 @@
+main {
+  background-color: rgba(218, 218, 218, 0.651);
+}
+
+.contact-title {
+  color: rgb(59, 153, 224);
+}
+
+.contact-desc {
+  opacity: 0.8;
+}
+
+.contact-form {
+  margin: 35px auto 40px;
+}
+
+.send-button {
+  text-align: left;
+  margin-top: 1.5em;
+  margin-left: 5.3em;
+}
+
+.form-title {
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+}
+
+form {
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 10px;
+  padding: 15px 20px 30px 20px;
+  border: none;
+  background-color: #343a40;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.6), 0 8px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+input,
+textarea,
+select {
+  width: 400px;
+  border-radius: 6px;
+  border: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 7em;
+  resize: vertical;
+}
+
+label {
+  font-size: 1.1em;
+  width: 96px;
+  text-align: right;
+  padding-right: 15px;
+  color: #fff;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: #e5e6e7;
+}
+
+@media screen and (max-width: 600px) {
+  .send-button {
+    text-align: center;
+    margin-left: 0;
+  }
+}
