@@ -23,7 +23,8 @@ const IndexPage = () => (
         <p className="intro-text">
           At Mattaz Web Design/Development, we specialize in local, small
           business websites. We turn ideas into eye catching, user friendly
-          websites.
+          websites. With multiple payment options, including monthly plans, we
+          make it easy for you to get your message out.
         </p>
       </div>
       <div className="row clean-block align-items-center">

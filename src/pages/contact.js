@@ -14,13 +14,13 @@ const ContactPage = () => (
       out anytime. We look forward to hearing from you and will get back to you
       as soon as possible.
     </p>
-    <div class="container">
+    <div className="container">
       <div className="row contact-form">
-        <form method="post" action="/">
-          <h1 class="form-title mt-3">Mattaz Web Development</h1>
-          <h4 class="form-title mb-5">Have a question or want to chat?</h4>
+        <form action="https://formstatic.dev" method="POST">
+          <h1 className="form-title mt-3">Mattaz Web Development</h1>
+          <h4 className="form-title mb-5">Have a question or want to chat?</h4>
           <div>
-            <label for="name">Name:</label>
+            <label htmlFor="name">Name:</label>
             <input
               type="text"
               id="name"
@@ -30,9 +30,9 @@ const ContactPage = () => (
             />
           </div>
           <div>
-            <label for="subject">Subject:</label>
+            <label htmlFor="subject">Subject:</label>
             <select name="subject" id="subject">
-              <option value="quote">Product Quote</option>
+              <option value="quote">Website Quote</option>
               <option value="inquiry">General Inquiry</option>
               <option value="help">Help</option>
               <option value="bug">Report a Bug</option>
@@ -40,7 +40,7 @@ const ContactPage = () => (
             </select>
           </div>
           <div>
-            <label for="mail">E-mail:</label>
+            <label htmlFor="mail">E-mail:</label>
             <input
               type="email"
               id="mail"
@@ -50,7 +50,7 @@ const ContactPage = () => (
             />
           </div>
           <div>
-            <label for="msg">Message:</label>
+            <label htmlFor="msg">Message:</label>
             <textarea
               id="msg"
               name="message"
@@ -58,9 +58,15 @@ const ContactPage = () => (
               required="required"
             ></textarea>
           </div>
-          <div class="send-button">
-            <button class="btn btn-primary mb-5">Send</button>
+          <div className="send-button">
+            <button className="btn btn-primary mb-5">Send</button>
           </div>
+          <input type="hidden" name="$to" value="info@tellicafe.com" />
+          <input
+            type="hidden"
+            name="$redirect_to"
+            value="https://www.mattaz.com/thankYou"
+          />
         </form>
       </div>
     </div>
