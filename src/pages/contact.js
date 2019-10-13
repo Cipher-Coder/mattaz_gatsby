@@ -74,13 +74,13 @@ const ContactPage = () => {
       <div>
         <label htmlFor="msg"> Message: </label>{" "}
         <textarea
-          id="msg"
-          name="message"
-          placeholder="Please Write Message Here *"
-          value={msg}
-          required="required"
-          onChange={e => setMsg(e.target.value)}
-        ></textarea>{" "}
+  id="msg"
+  name="message"
+  placeholder="Please Write Message Here *"
+  value={msg}
+  required="required"
+  onChange={e => setMsg(e.target.value)}
+  />{" "}
       </div>{" "}
       <div className="send-button">
         <button className="btn btn-primary mb-5"> Send </button>{" "}
