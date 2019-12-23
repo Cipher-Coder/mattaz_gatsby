@@ -10,8 +10,7 @@ function Footer() {
         color: `#e2e2e2`,
         padding: `.9rem`,
         fontSize: `.75rem`,
-      }}
-    >
+      }}>
       © {new Date().getFullYear()}, Built with
       {` `}
       <a href="https://www.gatsbyjs.org">Gatsby</a>, By:{" "}

@@ -31,8 +31,7 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           paddingTop: 0,
-        }}
-      >
+        }}>
         <main>{children}</main>
       </div>
       <Footer />

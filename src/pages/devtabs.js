@@ -134,15 +134,13 @@ const DevTabsPage = () => (
           <Button
             className="download-button"
             variant="primary"
-            href="https://chrome.google.com/webstore/detail/dev-tabs/ghkccmckjecalghejidolggalehgbcnj"
-          >
+            href="https://chrome.google.com/webstore/detail/dev-tabs/ghkccmckjecalghejidolggalehgbcnj">
             Download Chrome Extension
           </Button>
           <Button
             className="download-button"
             variant="primary"
-            href="https://addons.mozilla.org/en-US/firefox/addon/dev-tabs/"
-          >
+            href="https://addons.mozilla.org/en-US/firefox/addon/dev-tabs/">
             Download Firefox Extension
           </Button>
         </div>

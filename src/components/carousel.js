@@ -15,8 +15,7 @@ const Slidecarousel = () => (
           <a
             href="https://tellicafe.com"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             tellicafe.com
           </a>
         </p>
@@ -32,8 +31,7 @@ const Slidecarousel = () => (
           <a
             href="https://bearsdentellico.com"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             bearsdentellico.com
           </a>
         </p>
@@ -49,8 +47,7 @@ const Slidecarousel = () => (
           <a
             href="https://truckprorepair.com"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             truckprorepair.com
           </a>
         </p>

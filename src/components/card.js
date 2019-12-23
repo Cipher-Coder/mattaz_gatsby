@@ -8,8 +8,7 @@ const TrackingCard = () => {
   return (
     <Card
       className="text-center"
-      style={{ marginTop: `70px`, marginBottom: `70px` }}
-    >
+      style={{ marginTop: `70px`, marginBottom: `70px` }}>
       <Card.Header style={{ backgroundColor: `#fda5a5` }}>
         Dev Tabs Privacy Policy
       </Card.Header>
@@ -28,8 +27,7 @@ const TrackingCard = () => {
           <a
             href="https://github.com/Cipher-Coder/chromeExtension"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             source code
           </a>{" "}
           and contribute. If you get any use out of this and want to buy me a
@@ -40,8 +38,7 @@ const TrackingCard = () => {
           size="sm"
           href="https://paypal.me/CipherCoder?locale.x=en_US"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           Buy Me a{" "}
           <span role="img" aria-label="Coffee Cup">
             &#9749;
@@ -50,13 +47,11 @@ const TrackingCard = () => {
       </Card.Body>
       <Card.Footer
         className="text-center"
-        style={{ backgroundColor: `#fda5a5` }}
-      >
+        style={{ backgroundColor: `#fda5a5` }}>
         <a
           href="https://github.com/Cipher-Coder"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           <img src={gitHubIcon} alt="GitHub Icon" />
         </a>
       </Card.Footer>

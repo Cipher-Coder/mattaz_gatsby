@@ -18,8 +18,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
             paddingRight: `12px`,
           }}
-          activeStyle={{ color: "#007bff" }}
-        >
+          activeStyle={{ color: "#007bff" }}>
           Home
         </Link>
         <Link
@@ -29,8 +28,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
             paddingRight: `12px`,
           }}
-          activeStyle={{ color: "#007bff" }}
-        >
+          activeStyle={{ color: "#007bff" }}>
           Dev Tabs
         </Link>
         <Link
@@ -40,8 +38,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
             paddingRight: `12px`,
           }}
-          activeStyle={{ color: "#007bff" }}
-        >
+          activeStyle={{ color: "#007bff" }}>
           Blog
         </Link>
         <Link
@@ -51,8 +48,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
             paddingRight: `15px`,
           }}
-          activeStyle={{ color: "#007bff" }}
-        >
+          activeStyle={{ color: "#007bff" }}>
           Contact
         </Link>
       </Nav>
