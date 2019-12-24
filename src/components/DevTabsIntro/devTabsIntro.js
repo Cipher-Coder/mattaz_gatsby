@@ -1,6 +1,6 @@
 import React from "react"
 import "../DevTabsIntro/devTabsIntro.css"
-import screenshot from "../../images/screenshot.png"
+import screenshot from "../../images/devTabsNew.png"
 import Modal from "react-bootstrap/Modal"
 
 const DevTabsIntro = () => {
