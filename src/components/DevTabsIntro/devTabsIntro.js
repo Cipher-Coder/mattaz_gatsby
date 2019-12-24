@@ -10,7 +10,7 @@ const DevTabsIntro = () => {
 
   return (
     <div className="row intro-container">
-      <div className="devTabs-intro col-md-6 col-lg-4">
+      <div className="devTabs-intro  slide-in-left col-md-6 col-lg-4">
         <h2>Mattaz Web Development's</h2>
         <h3>Dev Tabs Chrome Extension</h3>
         <p className="devtabs-intro-text">
@@ -30,7 +30,7 @@ const DevTabsIntro = () => {
       </div>
       <div className="intro-image col-md-6 col-lg-8">
         <img
-          className="img-responsive intro-screenshot"
+          className="img-responsive intro-screenshot slide-in-right"
           src={screenshot}
           alt="Screenshot of the Dev Tabs Extension"
           onClick={handleShow}
