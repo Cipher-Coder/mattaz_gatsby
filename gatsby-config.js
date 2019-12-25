@@ -4,7 +4,7 @@ module.exports = {
     description: `Mattaz Web Design. Small business websites at affordable prices.`,
     keywords: `Mattaz, Gatsby, React, Web, Design`,
     author: `@MRebehn`,
-    siteUrl: `https://www.mattaz.com`,
+    siteUrl: `https://mattaz.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -61,7 +61,7 @@ module.exports = {
         background_color: `#333333`,
         theme_color: `#333333`,
         display: `minimal-ui`,
-        icon: `src/images/mattaz-icon.png`,
+        icon: `src/images/logo55.png`,
       },
     },
     `gatsby-plugin-offline`,

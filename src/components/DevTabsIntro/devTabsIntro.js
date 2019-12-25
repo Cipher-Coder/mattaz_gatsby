@@ -7,7 +7,6 @@ const DevTabsIntro = () => {
   const [show, setShow] = React.useState(false)
   const handleClose = () => setShow(false)
   const handleShow = () => setShow(true)
-
   return (
     <div className="row intro-container">
       <div className="devTabs-intro  slide-in-left col-md-6 col-lg-4">

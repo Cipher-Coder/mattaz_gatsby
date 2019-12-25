@@ -15,7 +15,7 @@ const IndexPage = () => (
     <Hero
       classes="hero-image"
       h1Text="Mattaz Web Design"
-      h3Text="Because Every Detail 'Mattaz'"
+      h3Text="&mdash; Because Every Detail 'Mattaz' &mdash;"
     />
     <section className="intro-section">
       <div className="intro">
