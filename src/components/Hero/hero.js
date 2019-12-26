@@ -10,7 +10,7 @@ const Hero = props => {
         <img
           src={logo}
           alt="Logo"
-          className="logo-image img-responsive"
+          className="logo-image"
           style={{ width: `400px` }}
         />
         <h1 className="tracking-in-contract-bck-top">{props.h1Text}</h1>
