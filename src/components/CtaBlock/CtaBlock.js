@@ -36,11 +36,12 @@ const CtaBlock = () => {
         </div>
         <div className="col-md-5 feature-box">
           <Icon icon={bookOpen} className="line-icons icon light-blue" />
-          <h4 className="block-title">Single Page App</h4>
+          <h4 className="block-title">Browser Extensions</h4>
           <p className="block-text">
-            Web Application or website that interacts with the user by
-            dynamically re-writting the current page rather than loading new
-            pages from a server.&nbsp;
+            Browser extensions allow you to extend the use of your internet
+            browser. They help surf the web, bookmark our favorate sites and
+            much more. We can also use them for online apps, web services, cloud
+            storage,and much more.
           </p>
         </div>
         <div className="col-md-5 feature-box">
