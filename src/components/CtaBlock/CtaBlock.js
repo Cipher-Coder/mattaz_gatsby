@@ -38,10 +38,9 @@ const CtaBlock = () => {
           <Icon icon={bookOpen} className="line-icons icon light-blue" />
           <h4 className="block-title">Browser Extensions</h4>
           <p className="block-text">
-            Browser extensions allow you to extend the use of your internet
-            browser. They help surf the web, bookmark our favorate sites and
-            much more. We can also use them for online apps, web services, cloud
-            storage,and much more.
+            Browser extensions allow you to extend the use of your browser.
+            Helping surf the web, bookmark favorite sites and more. Extensions
+            can be used for web services, apps, cloud storage, and more.
           </p>
         </div>
         <div className="col-md-5 feature-box">
