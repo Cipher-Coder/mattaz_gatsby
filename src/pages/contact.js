@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import discord from "../images/discordicon.png"
 
 const ContactPage = () => {
   return (
@@ -40,6 +41,29 @@ const ContactPage = () => {
                 border: `none`,
               }}
             />
+          </div>
+          <div className="discord">
+            <p style={{ textAlign: `center` }}>
+              You can join me on{" "}
+              <a
+                href="https://discordapp.com"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src={discord}
+                  alt="Discord Icon"
+                  style={{ height: `1.5rem` }}
+                />
+              </a>{" "}
+              in my own{" "}
+              <a
+                href="https://discord.gg/YfUFkQw"
+                target="_blank"
+                rel="noopener noreferrer">
+                Chat Room
+              </a>{" "}
+              to talk to me directly.
+            </p>
           </div>
         </div>
         <Link
