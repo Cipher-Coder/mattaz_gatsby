@@ -1,0 +1,20 @@
+.uses-heading {
+  margin: auto;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.uses-title {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.uses-hr {
+  margin: 0 auto 45px;
+  height: 2px;
+  color: darkgray;
+}
+
+.category-head {
+  text-align: center;
+}
