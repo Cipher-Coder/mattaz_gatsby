@@ -621,6 +621,13 @@ pre tt:after {
   }
 }
 
+a {
+  color: #4fa0d6;
+}
+
+a:hover {
+  color: rgb(55, 109, 146);
+}
 .image-thumbnail {
   padding: 0.25rem;
   background-color: #f6f6f6;
@@ -633,8 +640,11 @@ pre tt:after {
   width: 30px;
 }
 
-/* .dev-link {
-  padding-right: 15px;
-  padding-top: 20px;
+.footer-link {
+  color: #4fa0d6;
 }
- */
+
+.footer-link:hover {
+  text-decoration: none;
+  color: rgb(55, 109, 146);
+}

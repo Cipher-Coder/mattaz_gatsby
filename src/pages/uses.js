@@ -52,6 +52,99 @@ const Uses = () => (
               .
             </li>
           </ul>
+          <h2 className="category-head">VS Code Extensions:</h2>
+          <ul>
+            <li>
+              <b> Auto Close Tag:</b>{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag"
+                target="_blank"
+                rel="noopener noreferrer">
+                Automatically{" "}
+              </a>
+              add HTML/XML close tag.
+            </li>
+            <li>
+              <b> Auto Rename Tag:</b>{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag"
+                target="_blank"
+                rel="noopener noreferrer">
+                Auto rename{" "}
+              </a>
+              paired HTML/XML tag.
+            </li>
+            <li>
+              <b> Autoprefixer:</b>{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer"
+                target="_blank"
+                rel="noopener noreferrer">
+                Parse CSS{" "}
+              </a>
+              and add vendor prefixes automatically.
+            </li>
+            <li>
+              <b> Bookmarks:</b>{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks"
+                target="_blank"
+                rel="noopener noreferrer">
+                Mark lines{" "}
+              </a>
+              and jump to them.
+            </li>
+            <li>
+              <b> Bracket Pair Colorizer 2:</b> A{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2"
+                target="_blank"
+                rel="noopener noreferrer">
+                customizable extension{" "}
+              </a>
+              for colorizing matching brackets.
+            </li>
+            <li>
+              <b> Code Runner:</b>{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner"
+                target="_blank"
+                rel="noopener noreferrer">
+                Run code{" "}
+              </a>
+              snippet or code file for multiple languages.
+            </li>
+            <li>
+              <b> Code spell checker:</b> Spelling{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"
+                target="_blank"
+                rel="noopener noreferrer">
+                checker{" "}
+              </a>
+              for source code.
+            </li>
+            <li>
+              <b> Debugger for Chrome:</b>{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"
+                target="_blank"
+                rel="noopener noreferrer">
+                Debug{" "}
+              </a>
+              your JavaScript code in the Chrome Browser.
+            </li>
+            <li>
+              <b> ES7 React/Redux/GraphQL/React-Native Snippets:</b>{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets"
+                target="_blank"
+                rel="noopener noreferrer">
+                Simple Extension{" "}
+              </a>
+              for React, Redux and Graphql in JS/TS with ES7 syntax.
+            </li>
+          </ul>
         </div>
         <div className="col-sm-6">
           <h2 className="category-head">Software:</h2>

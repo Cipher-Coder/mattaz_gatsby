@@ -13,8 +13,13 @@ function Footer() {
       }}>
       © {new Date().getFullYear()}, Built with
       {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>, By:{" "}
-      <a href="https://mattaz.com">Mattaz Web Design</a>
+      <a className="footer-link" href="https://www.gatsbyjs.org">
+        Gatsby
+      </a>
+      , By:{" "}
+      <a className="footer-link" href="https://mattaz.com">
+        Mattaz Web Design
+      </a>
     </footer>
   )
 }
