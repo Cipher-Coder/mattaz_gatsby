@@ -55,155 +55,262 @@ const Uses = () => (
           <h2 className="category-head">VS Code Extensions:</h2>
           <ul>
             <li>
-              <b> Auto Close Tag:</b>{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag"
-                target="_blank"
-                rel="noopener noreferrer">
-                Automatically{" "}
-              </a>
-              add HTML/XML close tag.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Auto Close Tag:{" "}
+                </a>
+              </b>{" "}
+              Automatically add HTML/XML close tag.
             </li>
             <li>
-              <b> Auto Rename Tag:</b>{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag"
-                target="_blank"
-                rel="noopener noreferrer">
-                Auto rename{" "}
-              </a>
-              paired HTML/XML tag.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Auto Rename Tag:{" "}
+                </a>{" "}
+              </b>{" "}
+              Auto rename paired HTML/XML tag.
             </li>
             <li>
-              <b> Autoprefixer:</b>{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer"
-                target="_blank"
-                rel="noopener noreferrer">
-                Parse CSS{" "}
-              </a>
-              and add vendor prefixes automatically.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Autoprefixer:{" "}
+                </a>{" "}
+              </b>{" "}
+              Parse CSS and add vendor prefixes automatically.
             </li>
             <li>
-              <b> Bookmarks:</b>{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks"
-                target="_blank"
-                rel="noopener noreferrer">
-                Mark lines{" "}
-              </a>
-              and jump to them.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Bookmarks:{" "}
+                </a>{" "}
+              </b>{" "}
+              Mark lines and jump to them.
             </li>
             <li>
-              <b> Bracket Pair Colorizer 2:</b> A{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2"
-                target="_blank"
-                rel="noopener noreferrer">
-                customizable extension{" "}
-              </a>
-              for colorizing matching brackets.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Bracket Pair Colorizer 2:{" "}
+                </a>{" "}
+              </b>{" "}
+              A customizable extension for colorizing matching brackets.
             </li>
             <li>
-              <b> Code Runner:</b>{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner"
-                target="_blank"
-                rel="noopener noreferrer">
-                Run code{" "}
-              </a>
-              snippet or code file for multiple languages.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Code Runner:{" "}
+                </a>{" "}
+              </b>{" "}
+              Run code snippet or code file for multiple languages.
             </li>
             <li>
-              <b> Code spell checker:</b> Spelling{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"
-                target="_blank"
-                rel="noopener noreferrer">
-                checker{" "}
-              </a>
-              for source code.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Code spell checker:{" "}
+                </a>{" "}
+              </b>{" "}
+              Spelling checker for source code.
             </li>
             <li>
-              <b> Debugger for Chrome:</b>{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"
-                target="_blank"
-                rel="noopener noreferrer">
-                Debug{" "}
-              </a>
-              your JavaScript code in the Chrome Browser.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Debugger for Chrome:{" "}
+                </a>{" "}
+              </b>{" "}
+              Debug your JavaScript code in the Chrome Browser.
             </li>
             <li>
-              <b> ES7 React/Redux/GraphQL/React-Native Snippets:</b>{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets"
-                target="_blank"
-                rel="noopener noreferrer">
-                Simple Extension{" "}
-              </a>
-              for React, Redux and Graphql in JS/TS with ES7 syntax.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  ES7 React/Redux/GraphQL/React-Native Snippets:{" "}
+                </a>{" "}
+              </b>{" "}
+              Simple Extension for React, Redux and Graphql in JS/TS with ES7
+              syntax.
             </li>
             <li>
-              <b> GitLens:</b>{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens"
-                target="_blank"
-                rel="noopener noreferrer">
-                Supercharge{" "}
-              </a>
-              the Git capabilities built into VS Code.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  GitLens:{" "}
+                </a>{" "}
+              </b>{" "}
+              Supercharge the Git capabilities built into VS Code.
             </li>
             <li>
-              <b> Highlight Matching Tag:</b>{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag"
-                target="_blank"
-                rel="noopener noreferrer">
-                Highlights{" "}
-              </a>
-              matching closing or opening tag.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Highlight Matching Tag:{" "}
+                </a>{" "}
+              </b>{" "}
+              Highlights matching, closing, or opening tag.
             </li>
             <li>
-              <b> HTML CSS Support:</b> CSS{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css"
-                target="_blank"
-                rel="noopener noreferrer">
-                support{" "}
-              </a>
-              for HTML documents.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  HTML CSS Support:{" "}
+                </a>{" "}
+              </b>{" "}
+              Support CSS for HTML documents.
             </li>
             <li>
-              <b> HTMLHint:</b> A Static Code{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint"
-                target="_blank"
-                rel="noopener noreferrer">
-                Analysis{" "}
-              </a>
-              tool for HTML.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  HTMLHint:{" "}
+                </a>{" "}
+              </b>{" "}
+              A Static Code Analysis tool for HTML.
             </li>
             <li>
-              <b> Import Cost:</b>{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost"
-                target="_blank"
-                rel="noopener noreferrer">
-                Display{" "}
-              </a>
-              import/require package size in the editor.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Import Cost:{" "}
+                </a>{" "}
+              </b>{" "}
+              Display import/require package size in the editor.
             </li>
             <li>
-              <b> IntelliSense for CSS Class names in HTML:</b> CSS class name{" "}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion"
-                target="_blank"
-                rel="noopener noreferrer">
-                completion{" "}
-              </a>
-              for the HTML class attribute based on the definitions found in
-              your workspace.
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  IntelliSense for CSS Class names in HTML:{" "}
+                </a>{" "}
+              </b>{" "}
+              CSS class name completion for the HTML class attribute based on
+              the definitions found in your workspace.
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Live Server:{" "}
+                </a>{" "}
+              </b>{" "}
+              Launch a development local server with live reload feature for
+              static &amp; dynamic pages.
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Markdown All In One:{" "}
+                </a>{" "}
+              </b>{" "}
+              Markdown Tools, keyboard shortcuts, table of contents, auto
+              preview, and more.
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  NPM:{" "}
+                </a>{" "}
+              </b>{" "}
+              NPM support for VS Code.
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  NPM IntelliSense:{" "}
+                </a>{" "}
+              </b>{" "}
+              VS Code plugin that autocompletes npm modules in import
+              statements.
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Path IntelliSense:{" "}
+                </a>{" "}
+              </b>{" "}
+              VS Code plugin that autocompletes filenames.
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Prettier - Code Formatter:{" "}
+                </a>{" "}
+              </b>{" "}
+              Code formatter using prettier.
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=JamesBirtles.svelte-vscode"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Svelte:{" "}
+                </a>{" "}
+              </b>{" "}
+              Svelte language support for VS Code.
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=ardenivanov.svelte-intellisense"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Svelte IntelliSense:{" "}
+                </a>{" "}
+              </b>{" "}
+              Provides IntelliSense for data, events, slots, etc. in components.
             </li>
           </ul>
         </div>
@@ -357,6 +464,152 @@ const Uses = () => (
                 Bitwarden
               </a>
               .
+            </li>
+          </ul>
+          <h2 className="category-head">Browser Extensions:</h2>
+          <ul>
+            <li>
+              <b>
+                <a
+                  href="https://www.eff.org/privacybadger"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Privacy Badger:
+                </a>{" "}
+              </b>{" "}
+              Security extension that automatically learns to block invisible
+              trackers.
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  uBlock Origin:
+                </a>{" "}
+              </b>{" "}
+              An{" "}
+              <a
+                href="https://github.com/gorhill/uBlock"
+                target="_blank"
+                rel="noopener noreferrer">
+                Open source
+              </a>{" "}
+              efficient ad blocker. Easy on CPU and memory.{" "}
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://github.com/sienori/Tab-Session-Manager"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Tab Session Manager:
+                </a>{" "}
+              </b>{" "}
+              WebExtensions for saving and restoring sessions{" "}
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://github.com/sienori/Tab-Session-Manager"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Enhancer for YouTube&trade;:
+                </a>{" "}
+              </b>{" "}
+              Highly customizable and easy-to-use extension that allows you to
+              do so much!{" "}
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://github.com/RedHatter/svelte-devtools"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Svelte Dev Tools:
+                </a>{" "}
+              </b>{" "}
+              An extension that allows inspection of Svelte component hierarchy
+              and state in the Firefox and Chrome developer tools.{" "}
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://addons.mozilla.org/en-US/firefox/addon/react-devtools/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  React Developer Tools:
+                </a>{" "}
+              </b>{" "}
+              React Developer Tools is a tool that allows you to inspect a React
+              tree, including the component hierarchy, props, state, and more.{" "}
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://www.wappalyzer.com/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Wappalyzer:
+                </a>{" "}
+              </b>{" "}
+              A cross-platform utility that uncovers the tech used on websties.
+              It detects CMS, ecommerce platforms and web frameworks server
+              software, analytics and much more.{" "}
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Firefox Multi-Account containers:
+                </a>{" "}
+              </b>{" "}
+              This lets you keep parts of your online life separated into
+              color-coded tabs that preserve your privacy. Cookies are separated
+              by container, allowing you to use the web with multiple
+              identities.{" "}
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Facebook Container:
+                </a>{" "}
+              </b>{" "}
+              Prevent Facebook from tracking you around the web. The Facebook
+              Container extension for Firefox helps you take control and isolate
+              your web activity from Facebook.{" "}
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://addons.mozilla.org/en-US/firefox/addon/measure-it/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Measure-It:
+                </a>{" "}
+              </b>{" "}
+              Draw a ruler across any webpage to check the width, height, or
+              alignment of page elements in pixels.{" "}
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  WAVE accessibility tool:
+                </a>{" "}
+              </b>{" "}
+              Evaluate web accessibility within the Firefox browser. When
+              activated, the WAVE extension injects icons and indicators into
+              your page to give feedback about accessibility and to facilitate
+              manual evaluation.{" "}
             </li>
           </ul>
         </div>
