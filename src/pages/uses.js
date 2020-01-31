@@ -144,6 +144,67 @@ const Uses = () => (
               </a>
               for React, Redux and Graphql in JS/TS with ES7 syntax.
             </li>
+            <li>
+              <b> GitLens:</b>{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens"
+                target="_blank"
+                rel="noopener noreferrer">
+                Supercharge{" "}
+              </a>
+              the Git capabilities built into VS Code.
+            </li>
+            <li>
+              <b> Highlight Matching Tag:</b>{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag"
+                target="_blank"
+                rel="noopener noreferrer">
+                Highlights{" "}
+              </a>
+              matching closing or opening tag.
+            </li>
+            <li>
+              <b> HTML CSS Support:</b> CSS{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css"
+                target="_blank"
+                rel="noopener noreferrer">
+                support{" "}
+              </a>
+              for HTML documents.
+            </li>
+            <li>
+              <b> HTMLHint:</b> A Static Code{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint"
+                target="_blank"
+                rel="noopener noreferrer">
+                Analysis{" "}
+              </a>
+              tool for HTML.
+            </li>
+            <li>
+              <b> Import Cost:</b>{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost"
+                target="_blank"
+                rel="noopener noreferrer">
+                Display{" "}
+              </a>
+              import/require package size in the editor.
+            </li>
+            <li>
+              <b> IntelliSense for CSS Class names in HTML:</b> CSS class name{" "}
+              <a
+                href="https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion"
+                target="_blank"
+                rel="noopener noreferrer">
+                completion{" "}
+              </a>
+              for the HTML class attribute based on the definitions found in
+              your workspace.
+            </li>
           </ul>
         </div>
         <div className="col-sm-6">
