@@ -54,7 +54,7 @@
 }
 
 .desc-text {
-  opacity: 0.8;
+  opacity: 0.95;
 }
 
 .evenMore {
@@ -89,7 +89,6 @@
 .qr-explain {
   background-color: #eeeeee;
   margin: 15px 0 40px 35px;
-  margin-bottom: 40px;
   border: 1px solid #000;
   border-radius: 6px;
   -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);

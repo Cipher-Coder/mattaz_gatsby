@@ -554,7 +554,7 @@ const Uses = () => (
                   Wappalyzer:
                 </a>{" "}
               </b>{" "}
-              A cross-platform utility that uncovers the tech used on websties.
+              A cross-platform utility that uncovers the tech used on websites.
               It detects CMS, ecommerce platforms and web frameworks server
               software, analytics and much more.{" "}
             </li>

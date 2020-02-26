@@ -1,5 +1,4 @@
 import React from "react"
-import Button from "react-bootstrap/Button"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -131,18 +130,24 @@ const DevTabsPage = () => (
           <h3 className="link-heading">Download Extension</h3>
         </div>
         <div className="row download-links">
-          <Button
-            className="download-button"
-            variant="primary"
-            href="https://chrome.google.com/webstore/detail/dev-tabs/ghkccmckjecalghejidolggalehgbcnj">
+          <a
+            className="download-button btn btn-primary"
+            href="https://chrome.google.com/webstore/detail/dev-tabs/ghkccmckjecalghejidolggalehgbcnj" target="_blank"
+            rel="noopener noreferrer">
             Download Chrome Extension
-          </Button>
-          <Button
-            className="download-button"
-            variant="primary"
-            href="https://addons.mozilla.org/en-US/firefox/addon/dev-tabs/">
+          </a>
+          <a
+            className="download-button btn btn-primary"
+            href="https://microsoftedge.microsoft.com/addons/detail/mjnididbffjmpdccgmcbdmondlpafkef?hl=en-US" target="_blank"
+            rel="noopener noreferrer">
+            Download Edge Extension
+          </a>
+          <a
+            className="download-button btn btn-primary"
+            href="https://addons.mozilla.org/en-US/firefox/addon/dev-tabs/" target="_blank"
+            rel="noopener noreferrer">
             Download Firefox Extension
-          </Button>
+          </a>
         </div>
       </div>
     </section>

@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
-      <Nav className="mr-auto"></Nav>
+      <Nav className="mr-auto"/>
       <Nav>
         <Link
           to="/"
