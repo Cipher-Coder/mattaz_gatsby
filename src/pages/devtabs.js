@@ -1,5 +1,4 @@
 import React from "react"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import DevTabsIntro from "../components/DevTabsIntro/devTabsIntro"
@@ -132,19 +131,22 @@ const DevTabsPage = () => (
         <div className="row download-links">
           <a
             className="download-button btn btn-primary"
-            href="https://chrome.google.com/webstore/detail/dev-tabs/ghkccmckjecalghejidolggalehgbcnj" target="_blank"
+            href="https://chrome.google.com/webstore/detail/dev-tabs/ghkccmckjecalghejidolggalehgbcnj"
+            target="_blank"
             rel="noopener noreferrer">
             Download Chrome Extension
           </a>
           <a
             className="download-button btn btn-primary"
-            href="https://microsoftedge.microsoft.com/addons/detail/mjnididbffjmpdccgmcbdmondlpafkef?hl=en-US" target="_blank"
+            href="https://microsoftedge.microsoft.com/addons/detail/mjnididbffjmpdccgmcbdmondlpafkef?hl=en-US"
+            target="_blank"
             rel="noopener noreferrer">
             Download Edge Extension
           </a>
           <a
             className="download-button btn btn-primary"
-            href="https://addons.mozilla.org/en-US/firefox/addon/dev-tabs/" target="_blank"
+            href="https://addons.mozilla.org/en-US/firefox/addon/dev-tabs/"
+            target="_blank"
             rel="noopener noreferrer">
             Download Firefox Extension
           </a>

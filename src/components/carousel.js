@@ -23,7 +23,6 @@ const Slidecarousel = () => (
     </Carousel.Item>
     <Carousel.Item>
       <img className="d-block w-100" src={caro2} alt="Third slide" />
-
       <Carousel.Caption>
         <h3>The Bear's Den Website</h3>
         <p>
@@ -39,7 +38,6 @@ const Slidecarousel = () => (
     </Carousel.Item>
     <Carousel.Item>
       <img className="d-block w-100" src={caro3} alt="Third slide" />
-
       <Carousel.Caption>
         <h3>Truck Pro's Website</h3>
         <p>

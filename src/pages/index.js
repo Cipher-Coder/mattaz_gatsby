@@ -1,5 +1,4 @@
 import React from "react"
-
 import "../styles/index.css"
 import Layout from "../components/layout"
 import supportImage from "../images/computerVector.jpg"
