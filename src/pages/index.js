@@ -23,7 +23,7 @@ const IndexPage = () => (
           At Mattaz Web Design/Development, we specialize in local, small
           business websites. We turn ideas into eye catching, user friendly
           websites. With multiple payment options, including monthly plans, we
-          make it easy for you to get your message out.
+          make it easy for you to get your message out fast.
         </p>
       </div>
       <div className="row clean-block align-items-center">
@@ -47,6 +47,7 @@ const IndexPage = () => (
           <p className="support-text">
             We design cleanly coded, responsive websites to aid in your
             business's discovery, credibility, and long term marketing strategy.
+            We do this fast, getting your website up and online in days.
           </p>
           <Link to="/contact/" className="button btn btn-primary">
             Contact Us!

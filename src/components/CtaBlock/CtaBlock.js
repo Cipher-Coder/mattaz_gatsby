@@ -22,8 +22,8 @@ const CtaBlock = () => {
           <h4 className="block-title">Static Website</h4>
           <p className="block-text">
             Our most popular choice! Using technologies like HTML, CSS, and
-            JavaScript, we build you an eye catching website. Most Economical
-            choice too.&nbsp;
+            JavaScript, we build you an eye catching website. Most Economical &
+            quickest to get online.&nbsp;
           </p>
         </div>
         <div className="col-md-5 feature-box">
@@ -39,8 +39,9 @@ const CtaBlock = () => {
           <h4 className="block-title">Browser Extensions</h4>
           <p className="block-text">
             Browser extensions allow you to extend the use of your browser.
-            Helping surf the web, bookmark favorite sites and more. Extensions
-            can be used for web services, apps, cloud storage, and more.
+            Helping surf the web, bookmark favorites and more. Extensions can be
+            used for web services, internal apps, cloud storage, corporate apps
+            & more.
           </p>
         </div>
         <div className="col-md-5 feature-box">

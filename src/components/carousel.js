@@ -5,7 +5,7 @@ import caro2 from "../images/caro2.png"
 import caro3 from "../images/caro4.jpg"
 
 const Slidecarousel = () => (
-  <Carousel>
+  <Carousel indicators={false} fade={true}>
     <Carousel.Item>
       <img className="d-block w-100" src={caro1} alt="First slide" />
       <Carousel.Caption>
