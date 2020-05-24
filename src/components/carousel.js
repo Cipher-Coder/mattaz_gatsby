@@ -39,7 +39,7 @@ const Slidecarousel = () => (
     <Carousel.Item>
       <img className="d-block w-100" src={caro3} alt="Third slide" />
       <Carousel.Caption>
-        <h3>Truck Pro's Website</h3>
+        <h3>Truck Pro Repair Website</h3>
         <p>
           Small business website that can be visited at:{" "}
           <a
