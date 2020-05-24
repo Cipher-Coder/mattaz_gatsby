@@ -19,9 +19,10 @@ const ContactPage = () => {
         <p
           className="text-center col-sm-4 mx-auto contact-desc"
           style={{ opacity: `0.8` }}>
-          For any further information or to get a quote please feel free to
-          reach out anytime.We look forward to hearing from you and will get
-          back to you as soon as possible.
+          For any further information, or to get a quote, please feel free to
+          reach out anytime. We do excellent freelance work at very affordable
+          prices! We look forward to hearing from you, and will get back to you
+          as soon as possible.
         </p>
         <div className="container">
           <div
