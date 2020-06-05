@@ -3,7 +3,7 @@ import "../styles/index.css"
 import Layout from "../components/layout"
 import supportImage from "../images/computerVector.jpg"
 import SEO from "../components/seo"
-import Carousel from "../components/carousel"
+import SlideCarousel from "../components/SlideCarousel"
 import Hero from "../components/Hero/hero"
 import CtaBlock from "../components/CtaBlock/CtaBlock"
 import { Link } from "gatsby"
@@ -61,7 +61,7 @@ const IndexPage = () => (
     <section className="carousel-section">
       <div className="carousel-info">
         <h2 className="light-blue pb-5">Check out some of our work...</h2>
-        <Carousel />
+        <SlideCarousel />
       </div>
     </section>
   </Layout>
