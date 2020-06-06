@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import DevTabsIntro from "../components/DevTabsIntro/devTabsIntro"
 import TrackingCard from "../components/TrackingCard"
-import MyImage from "../components/myImage"
+import MyImage from "../components/MyImage"
 import DownloadButton from "../components/DownloadButton"
 
 import "../styles/devtabs.css"
