@@ -59,7 +59,7 @@ const DevTabsPage = () => (
               will be appended to the end of the list. The bookmarks column will
               scroll independently. All of these are stored in Chrome's local
               storage. Again, they do not have anything to do with your normal
-              bookmarks.`}
+              bookmarks. There is also a button on the new tab page to add a single bookmark.`}
             />
             <MyImage
               divClass={"row github"}
@@ -83,7 +83,7 @@ const DevTabsPage = () => (
               myUrl={weather}
               alt={"Bookmarks folder"}
               title={"Weather:"}
-              content={`The weather is pretty self explanatory. I used the Open Weather Map Api to fetch the current conditions for your location. To set your location, go to the settings page, click the 'Weather' option and just click the button to get your current location. On the first time, it will ask your permission to acquire your location. Also, use the toggle switch to choose your unit of measure (MPH or KPH). Once you click 'ok', it will fetch your coordinates with the HTML Geolocation api and store them in Chrome's local storage. It will then make the api call to Open Weather Map, get your weather, and display it. Just be advised... this extension does not track you in any way. It stores your coordinates in local storage, on your machine and your machine only. Which means, if you move locations and want your weather display to reflect that, you will need to go back into your weather settings and click the button to get your current location. It will then rewrite the data and store your updated coordinates`}
+              content={`The weather is pretty self explanatory. I used the Open Weather Map Api to fetch the current conditions for your location. To set your location, go to the settings page, click the 'Weather' option and just click the button to get your current location. On the first time, it will ask your permission to acquire your location. Also, use the toggle switch to choose your unit of measure (MPH or KPH). Once you click 'ok', it will fetch your coordinates with the HTML Geolocation api and store them in Chrome's local storage. It will then make the api call to Open Weather Map, get your weather, and display it. This extension does not track you in any way. It stores your coordinates in local storage, on your machine and your machine only. Which means, if you move locations and want your weather display to reflect that, you will need to go back into your weather settings and click the button to get your current location. It will then rewrite the data and store your updated coordinates`}
             />
           </div>
         </div>
@@ -115,12 +115,12 @@ const DevTabsPage = () => (
                 something else. This was the main inspiration behind this tool.
                 I work from home and everyday, at 2:15pm, I have to stop what I
                 am doing and go pick up my kids from school. I have to wait on
-                line for usually around 30 mins, just sitting, with the car off.
-                Now, if I am in the middle of reading something, I can click the
-                icon button in the toolbar and copy the url of whatever site I
-                am on and create a QR Code that I can scan with my phone and
-                take with me. Then while waiting to pick the kids up, I can
-                continue to read whatever it was I was working on.
+                line for usually around 30 mins. Now, if I am in the middle of
+                reading something, I can click the icon button in the toolbar
+                and copy the url of whatever site I am on and create a QR Code
+                that I can scan with my phone and take with me. Then while
+                waiting to pick the kids up, I can continue to read whatever it
+                was I was working on.
               </p>
             </div>
           </div>
