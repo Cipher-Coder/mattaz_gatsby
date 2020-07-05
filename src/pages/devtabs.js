@@ -12,8 +12,8 @@ import bookmark from "../images/3d-bookmarks.png"
 import github from "../images/github-3d.png"
 import devTo from "../images/thepracticaldev.png"
 import weather from "../images/theWeather.png"
-import screenshot2 from "../images/screenshot2.png"
-import qrImg from "../images/screenshot3.png"
+import screenshot from "../images/screenshot4.jpg"
+import getQR from "../images/getQR.png"
 
 const DevTabsPage = () => (
   <Layout>
@@ -95,7 +95,7 @@ const DevTabsPage = () => (
               Check it out... Even More!
             </h2>
             <img
-              src={screenshot2}
+              src={screenshot}
               className="evenMore-img"
               alt="Dev Tabs Screenshot"
             />
@@ -103,7 +103,7 @@ const DevTabsPage = () => (
           </div>
           <div className="row qrCode-info">
             <img
-              src={qrImg}
+              src={getQR}
               alt="QR code generator"
               className="img-responsive col-xs-6 col-sm-8 col-md-7 col-lg-6 qr-img"
             />

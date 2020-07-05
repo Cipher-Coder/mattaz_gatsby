@@ -48,7 +48,7 @@ const TrackingCard = () => {
         className="text-center"
         style={{ backgroundColor: `#fda5a5` }}>
         <a
-          href="https://github.com/Cipher-Coder"
+          href="https://github.com/Cipher-Coder/"
           target="_blank"
           rel="noopener noreferrer">
           <img src={gitHubIcon} alt="GitHub Icon" />
