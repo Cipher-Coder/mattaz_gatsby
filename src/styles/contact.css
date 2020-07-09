@@ -1,0 +1,36 @@
+.main-div {
+  background-color: rgba(218, 218, 218, 0.651);
+}
+
+.contact-title {
+  color: rgb(59, 153, 224);
+}
+
+.contact-desc {
+  opacity: 0.8;
+}
+
+.link-home {
+  display: block;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.contact-form {
+  margin: 35px auto 40px;
+}
+
+.contact-iframe {
+  margin: auto;
+  display: block;
+  height: 850px;
+  width: 70%;
+  border: none;
+}
+
+@media screen and (max-width: 860px) {
+  .contact-iframe {
+    width: 99%;
+    height: 920px;
+  }
+}
