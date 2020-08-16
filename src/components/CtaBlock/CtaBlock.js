@@ -12,8 +12,9 @@ const CtaBlock = () => {
       <div className="block-heading">
         <h2 className="light-blue text-center">What we can do for you...</h2>
         <p className="sub-info">
-          We can design and develop all different kinds of websites. We work
-          with all different frameworks and platforms. Contact us for a quote!
+          We can design, develop, launch and maintain all different kinds of
+          websites. We work with many different frameworks and platforms.
+          Contact us for a quote!
         </p>
       </div>
       <div className="row justify-content-center">
