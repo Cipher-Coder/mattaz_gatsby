@@ -32,7 +32,7 @@ const CtaBlock = () => {
           <h4 className="block-title">Progressive Web Apps</h4>
           <p className="block-text">
             PWA's provide an installable, app-like experience on your desktop
-            and mobile. Fast, reliable, and work in any browser.
+            and mobile. They are fast, reliable, and work in any browser.
           </p>
         </div>
         <div className="col-md-5 feature-box">
