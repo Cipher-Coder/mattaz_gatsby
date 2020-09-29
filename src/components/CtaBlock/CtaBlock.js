@@ -20,11 +20,12 @@ const CtaBlock = () => {
       <div className="row justify-content-center">
         <div className="col-md-5 feature-box">
           <Icon icon={screenTablet} className="line-icons icon light-blue" />
-          <h4 className="block-title">Static Website</h4>
+          <h4 className="block-title">Jamstack Website</h4>
           <p className="block-text">
             Our most popular choice! Using technologies like HTML, CSS, and
-            JavaScript, we build you an eye catching website. Most Economical &
-            quickest to get online.&nbsp;
+            JavaScript, we leverage API's &amp; Markup to build you a secure,
+            blazing fast, eye catching website. Most Economical & quickest to
+            get online.&nbsp;
           </p>
         </div>
         <div className="col-md-5 feature-box">
