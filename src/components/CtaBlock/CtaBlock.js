@@ -23,9 +23,9 @@ const CtaBlock = () => {
           <h4 className="block-title">Jamstack Website</h4>
           <p className="block-text">
             Our most popular choice! Using technologies like HTML, CSS, and
-            JavaScript, we leverage API's &amp; Markup to build you a secure,
-            blazing fast, eye catching website. Most Economical & quickest to
-            get online.&nbsp;
+            JavaScript, leveraging API's to build you a secure, blazing fast,
+            eye catching website. Most Economical & quickest to get
+            online.&nbsp;
           </p>
         </div>
         <div className="col-md-5 feature-box">
