@@ -19,22 +19,37 @@ const Uses = () => (
           <h2 className="category-head">Hardware:</h2>
           <ul>
             <li>
-              <b> Main Computer:</b> Dell Inspiron running{" "}
+              <b> Main Computer:</b> Dell Inspiron Hackintosh running{" "}
               <a
-                href="https://linuxmint.com/"
+                href="https://www.apple.com/macos/big-sur/"
                 target="_blank"
                 rel="noopener noreferrer">
-                Linux Mint 19.3
+                Big Sur
               </a>{" "}
-              with an Intel i5 processor &amp; 16gb RAM.
+              with an Intel i5 processor &amp; 16gb RAM. I am using{" "}
+              <a
+                href="https://github.com/acidanthera/OpenCorePkg"
+                target="_blank"
+                rel="noopener noreferrer">
+                Open Core
+              </a>{" "}
+              for a bootloader to make running macOS on an Intel computer
+              possible. Check out this{" "}
+              <a
+                href="https://dortania.github.io/OpenCore-Install-Guide/"
+                target="_blank"
+                rel="noopener noreferrer">
+                install guide
+              </a>{" "}
+              if you are interested.
             </li>
             <li>
-              <b> Laptop Computer:</b> Lenovo T440s running{" "}
+              <b> Laptop Computer:</b> MacBook Pro (Late 2013) running{" "}
               <a
-                href="https://linuxmint.com/"
+                href="https://www.apple.com/macos/big-sur/"
                 target="_blank"
                 rel="noopener noreferrer">
-                Linux Mint 19.3
+                Big Sur
               </a>{" "}
               with an Intel i5 processor &amp; 8gb RAM.
             </li>
@@ -68,17 +83,6 @@ const Uses = () => (
             <li>
               <b>
                 <a
-                  href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  Auto Rename Tag:{" "}
-                </a>{" "}
-              </b>{" "}
-              Auto rename paired HTML/XML tag.
-            </li>
-            <li>
-              <b>
-                <a
                   href="https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer"
                   target="_blank"
                   rel="noopener noreferrer">
@@ -86,6 +90,18 @@ const Uses = () => (
                 </a>{" "}
               </b>{" "}
               Parse CSS and add vendor prefixes automatically.
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Better Comments:{" "}
+                </a>{" "}
+              </b>{" "}
+              Friendly comments for your code. Makes it easier to see and track
+              comments and todo's in your code.
             </li>
             <li>
               <b>
@@ -112,21 +128,10 @@ const Uses = () => (
             <li>
               <b>
                 <a
-                  href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  Code Runner:{" "}
-                </a>{" "}
-              </b>{" "}
-              Run code snippet or code file for multiple languages.
-            </li>
-            <li>
-              <b>
-                <a
                   href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"
                   target="_blank"
                   rel="noopener noreferrer">
-                  Code spell checker:{" "}
+                  Code Spell Check:{" "}
                 </a>{" "}
               </b>{" "}
               Spelling checker for source code.
@@ -134,13 +139,13 @@ const Uses = () => (
             <li>
               <b>
                 <a
-                  href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"
+                  href="https://marketplace.visualstudio.com/items?itemName=Mattaz.dark-cipher"
                   target="_blank"
                   rel="noopener noreferrer">
-                  Debugger for Chrome:{" "}
+                  Dark Cipher:{" "}
                 </a>{" "}
               </b>{" "}
-              Debug your JavaScript code in the Chrome Browser.
+              Dark theme for VS Code.
             </li>
             <li>
               <b>
@@ -337,10 +342,10 @@ const Uses = () => (
             <li>
               <b> Terminal:</b>{" "}
               <a
-                href="https://extraterm.org"
+                href="https://iterm2.com/"
                 target="_blank"
                 rel="noopener noreferrer">
-                Extraterm
+                iTerm2
               </a>{" "}
               , running{" "}
               <a
@@ -361,10 +366,10 @@ const Uses = () => (
             <li>
               <b> Email:</b>{" "}
               <a
-                href="https://getmailspring.com/"
+                href="https://canarymail.io/"
                 target="_blank"
                 rel="noopener noreferrer">
-                Mailspring
+                Canary Mail
               </a>{" "}
               for a mail client. I use{" "}
               <a
@@ -378,18 +383,32 @@ const Uses = () => (
             <li>
               <b> Browser:</b>{" "}
               <a
+                href="https://www.microsoft.com/en-us/edge"
+                target="_blank"
+                rel="noopener noreferrer">
+                Microsoft Edge
+              </a>{" "}
+              is my daily driver. I test on{" "}
+              <a
+                href="https://www.google.com/chrome/canary/"
+                target="_blank"
+                rel="noopener noreferrer">
+                Chrome Canary
+              </a>{" "}
+              as well as{" "}
+              <a
                 href="https://www.mozilla.org/en-US/firefox/developer/"
                 target="_blank"
                 rel="noopener noreferrer">
                 Firefox Developer Edition
               </a>{" "}
-              is my daily driver. I test on{" "}
+              and{" "}
               <a
-                href="https://www.google.com/chrome/beta/"
+                href="https://www.apple.com/safari/"
                 target="_blank"
                 rel="noopener noreferrer">
-                Chrome Beta Edition
-              </a>{" "}
+                Safari
+              </a>
             </li>
             <li>
               <b> Cloud Storage:</b> I run a personal server with{" "}
@@ -398,16 +417,23 @@ const Uses = () => (
                 target="_blank"
                 rel="noopener noreferrer">
                 Nextcloud
+              </a>{" "}
+              and use{" "}
+              <a
+                href="https://mega.nz"
+                target="_blank"
+                rel="noopener noreferrer">
+                Mega Cloud Storage
               </a>
               .
             </li>
             <li>
               <b> Image Manipulation:</b>{" "}
               <a
-                href="https://www.gimp.org/"
+                href="https://affinity.serif.com/en-us/photo/"
                 target="_blank"
                 rel="noopener noreferrer">
-                Gimp GNU Image Manipulation
+                Affinity Photo
               </a>
               .
             </li>
@@ -471,14 +497,14 @@ const Uses = () => (
             <li>
               <b>
                 <a
-                  href="https://www.eff.org/privacybadger"
+                  href="https://mattaz.com/devTabs"
                   target="_blank"
                   rel="noopener noreferrer">
-                  Privacy Badger:
+                  Dev Tabs
                 </a>{" "}
               </b>{" "}
-              Security extension that automatically learns to block invisible
-              trackers.
+              New Tab extension for developers. Lets me see my commit graph and
+              top GitHub Repo's on every new tab.
             </li>
             <li>
               <b>
@@ -512,7 +538,7 @@ const Uses = () => (
             <li>
               <b>
                 <a
-                  href="https://github.com/sienori/Tab-Session-Manager"
+                  href="https://www.mrfdev.com/enhancer-for-youtube"
                   target="_blank"
                   rel="noopener noreferrer">
                   Enhancer for YouTube&trade;:
@@ -561,41 +587,37 @@ const Uses = () => (
             <li>
               <b>
                 <a
-                  href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/"
+                  href="https://microsoftedge.microsoft.com/addons/detail/json-formatter-for-edge/njpoigijhgbionbfdbaopheedbpdoddi"
                   target="_blank"
                   rel="noopener noreferrer">
-                  Firefox Multi-Account containers:
+                  JSON Formatter
                 </a>{" "}
               </b>{" "}
-              This lets you keep parts of your online life separated into
-              color-coded tabs that preserve your privacy. Cookies are separated
-              by container, allowing you to use the web with multiple
-              identities.{" "}
+              Simple JSON formatter for when you are doing a quick API call or
+              something. It will automatically format the data in your browser.{" "}
             </li>
             <li>
               <b>
                 <a
-                  href="https://addons.mozilla.org/en-US/firefox/addon/facebook-container/"
+                  href="https://chrome.google.com/webstore/detail/page-load-time/fploionmjgeclbkemipmkogoaohcdbig"
                   target="_blank"
                   rel="noopener noreferrer">
-                  Facebook Container:
+                  Page Load Timer
                 </a>{" "}
               </b>{" "}
-              Prevent Facebook from tracking you around the web. The Facebook
-              Container extension for Firefox helps you take control and isolate
-              your web activity from Facebook.{" "}
+              Dispays page load time in toolbar.{" "}
             </li>
             <li>
               <b>
                 <a
-                  href="https://addons.mozilla.org/en-US/firefox/addon/measure-it/"
+                  href="https://chrome.google.com/webstore/detail/awesome-cookie-manager/hcpidejphgpcgfnpiehkcckkkemgneif"
                   target="_blank"
                   rel="noopener noreferrer">
-                  Measure-It:
+                  Awesome Cookie Manager
                 </a>{" "}
               </b>{" "}
-              Draw a ruler across any webpage to check the width, height, or
-              alignment of page elements in pixels.{" "}
+              Displays a list of Cookies and allows for searching, viewing,
+              editing, saving, restoring, and deleting cookies.{" "}
             </li>
             <li>
               <b>
@@ -610,6 +632,18 @@ const Uses = () => (
               activated, the WAVE extension injects icons and indicators into
               your page to give feedback about accessibility and to facilitate
               manual evaluation.{" "}
+            </li>
+            <li>
+              <b>
+                <a
+                  href="https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Page Ruler Redux
+                </a>{" "}
+              </b>{" "}
+              Developer/Designer ruler to get pixel perfect dimensions,
+              positioning, and measuring of elements on a page.{" "}
             </li>
           </ul>
         </div>
