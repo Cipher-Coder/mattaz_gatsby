@@ -1,8 +1,7 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  <a href="https://mattaz.com">
+    <img alt="Mattaz Web Design" src="https://res.cloudinary.com/mattaz/image/upload/v1615427734/Projects/logoCut500_k0cxpy.png" width="60" />
   </a>
-  <a href="https://imgur.com/Q8DxdVp"><img alt="Mattaz Design" src="https://i.imgur.com/Q8DxdVp.png" width="60"/></a>
 </p>
 <h1 align="center">
   Mattaz Website on Gatsby
