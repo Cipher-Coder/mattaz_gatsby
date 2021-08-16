@@ -11,14 +11,13 @@ const DevTabsIntro = () => {
     <div className="row intro-container">
       <div className="devTabs-intro  slide-in-left col-md-6 col-lg-4">
         <h2>Mattaz Web Development's</h2>
-        <h3>Dev Tabs Chrome Extension</h3>
+        <h3>Dev Tabs Browser Extension</h3>
         <p className="devtabs-intro-text">
           I was having trouble finding a new tab/homepage extension that suited
-          my needs for my Chrome installation. I wanted a landing page and 'new
-          tab' page that was geared towards my work, and went even further by
-          helping me with my work. I could not find one, so I set out to build
-          one. That is how Dev Tabs came to life. A landing page and new tab
-          page for your Google Chrome and Firefox browser.
+          my needs. I wanted a landing page and 'new tab' page that was geared
+          towards my work, and went even a little further by helping me with my
+          work. I could not find one, so I set out to build one. That is how Dev
+          Tabs came to life. A landing page and new tab page for your browser.
         </p>
         <p className="devtabs-intro-text">
           This New Tab page has a few different things it does. I tried to make

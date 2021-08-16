@@ -57,7 +57,7 @@ const DevTabsPage = () => (
               landing page to enter individual links, so you can continue to add
               on as you find new sites you visit often. The individual links
               will be appended to the end of the list. The bookmarks column will
-              scroll independently. All of these are stored in Chrome's local
+              scroll independently. All of these are stored in local
               storage. Again, they do not have anything to do with your normal
               bookmarks. There is also a button on the new tab page to add a single bookmark.`}
             />
@@ -75,7 +75,7 @@ const DevTabsPage = () => (
               myUrl={devTo}
               alt={"Bookmarks folder"}
               title={"Developer News:"}
-              content={`When I get started in the mornings, I like to read the news and see what is going on around the community and learn a little something. Twitter can be very opinionated and I really just want to read a few articles. I included the article feed from Dev.to. They always have great articles to peruse, and since I do contribute on occasion, I like to keep track of what is going on there. The article title is a link and when clicked on will bring you to the selected article in the same window. They also have a Chrome extension for Twitter. If you check out the Github repo for The Practical Dev, you can look at the extension. I went ahead and borrowed from that and included the important parts of their extension in this one. So now when you visit Twitter, the Dev.to headlines will appear on the right-hand side of your Twitter feed. Not too intrusive, just another way to keep up on the days current headlines.`}
+              content={`When I get started in the mornings, I like to read the news and see what is going on around the community and learn a little something. Twitter can be very opinionated and I really just want to read a few articles. I included the article feed from Dev.to. They always have great articles to peruse, and since I do contribute on occasion, I like to keep track of what is going on there. The article title is a link and when clicked on will bring you to the selected article in the same window. They also have an extension for Twitter. If you check out the Github repo for The Practical Dev, you can look at the extension. I went ahead and borrowed from that and included the important parts of their extension in this one. So now when you visit Twitter, the Dev.to headlines will appear on the right-hand side of your Twitter feed. Not too intrusive, just another way to keep up on the days current headlines.`}
             />
             <MyImage
               divClass={"row weather"}
@@ -83,7 +83,7 @@ const DevTabsPage = () => (
               myUrl={weather}
               alt={"Bookmarks folder"}
               title={"Weather:"}
-              content={`The weather is pretty self explanatory. I used the Open Weather Map Api to fetch the current conditions for your location. To set your location, go to the settings page, click the 'Weather' option and just click the button to get your current location. On the first time, it will ask your permission to acquire your location. Also, use the toggle switch to choose your unit of measure (MPH or KPH). Once you click 'ok', it will fetch your coordinates with the HTML Geolocation api and store them in Chrome's local storage. It will then make the api call to Open Weather Map, get your weather, and display it. This extension does not track you in any way. It stores your coordinates in local storage, on your machine and your machine only. Which means, if you move locations and want your weather display to reflect that, you will need to go back into your weather settings and click the button to get your current location. It will then rewrite the data and store your updated coordinates`}
+              content={`The weather is pretty self explanatory. I used the Open Weather Map Api to fetch the current conditions for your location. To set your location, go to the settings page, click the 'Weather' option and just click the button to get your current location. On the first time, it will ask your permission to acquire your location. Also, use the toggle switch to choose your unit of measure (MPH or KPH). Once you click 'ok', it will fetch your coordinates with the HTML Geolocation api and store them in local storage. It will then make the api call to Open Weather Map, get your weather, and display it. This extension does not track you in any way. It stores your coordinates in local storage, on your machine and your machine only. Which means, if you move locations and want your weather display to reflect that, you will need to go back into your weather settings and click the button to get your current location. It will then rewrite the data and store your updated coordinates`}
             />
           </div>
         </div>
