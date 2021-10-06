@@ -19,32 +19,17 @@ const Uses = () => (
           <h2 className="category-head">Hardware:</h2>
           <ul>
             <li>
-              <b> Main Computer:</b> Dell Inspiron Hackintosh running{" "}
+              <b> Main Computer:</b> Apple MacBook Pro M1 running{" "}
               <a
                 href="https://www.apple.com/macos/big-sur/"
                 target="_blank"
                 rel="noopener noreferrer">
                 Big Sur
               </a>{" "}
-              with an Intel i5 processor &amp; 16gb RAM. I am using{" "}
-              <a
-                href="https://github.com/acidanthera/OpenCorePkg"
-                target="_blank"
-                rel="noopener noreferrer">
-                Open Core
-              </a>{" "}
-              for a bootloader to make running macOS on an Intel computer
-              possible. Check out this{" "}
-              <a
-                href="https://dortania.github.io/OpenCore-Install-Guide/"
-                target="_blank"
-                rel="noopener noreferrer">
-                install guide
-              </a>{" "}
-              if you are interested.
+              with 16gb RAM and 1TB SSD.
             </li>
             <li>
-              <b> Laptop Computer:</b> MacBook Pro (Late 2013) running{" "}
+              <b> Backup Computer:</b> MacBook Pro (Late 2013) running{" "}
               <a
                 href="https://www.apple.com/macos/big-sur/"
                 target="_blank"
@@ -54,7 +39,7 @@ const Uses = () => (
               with an Intel i5 processor &amp; 8gb RAM.
             </li>
             <li>
-              <b> Phone:</b> Samsung Galaxy Note S9 running Android.
+              <b> Phone:</b> Apple iPhone XS
             </li>
             <li>
               <b> Home Server:</b> Dell Optiplex running{" "}
