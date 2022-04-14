@@ -19,12 +19,12 @@ const Uses = () => (
           <h2 className="category-head">Hardware:</h2>
           <ul>
             <li>
-              <b> Main Computer:</b> Apple MacBook Pro M1 running{" "}
+              <b> Main Computer:</b>2020 Apple MacBook Pro M1 running{" "}
               <a
-                href="https://www.apple.com/macos/big-sur/"
+                href="https://www.apple.com/macos/monterey/"
                 target="_blank"
                 rel="noopener noreferrer">
-                Big Sur
+                Monterey
               </a>{" "}
               with 16gb RAM and 1TB SSD.
             </li>
@@ -39,7 +39,7 @@ const Uses = () => (
               with an Intel i5 processor &amp; 8gb RAM.
             </li>
             <li>
-              <b> Phone:</b> Apple iPhone XS
+              <b> Phone:</b> Apple iPhone 13 Pro Max
             </li>
             <li>
               <b> Home Server:</b> Dell Optiplex running{" "}
@@ -302,6 +302,18 @@ const Uses = () => (
               </b>{" "}
               Provides IntelliSense for data, events, slots, etc. in components.
             </li>
+            <li>
+              <b>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Todo Tree:{" "}
+                </a>{" "}
+              </b>{" "}
+              Quickly searches your workspace for comment tags like TODO and
+              FIXME, and displays them in a tree view in the activity bar.
+            </li>
           </ul>
         </div>
         <div className="col-sm-6">
@@ -315,14 +327,14 @@ const Uses = () => (
                 rel="noopener noreferrer">
                 Dark Cipher
               </a>{" "}
-              theme. I also play with the{" "}
+              theme. I mostly use the{" "}
               <a
                 href="https://code.visualstudio.com/insiders/"
                 target="_blank"
                 rel="noopener noreferrer">
                 Insiders Build
               </a>{" "}
-              a lot, though it is not as stable.
+              , though it can be not as stable.
             </li>
             <li>
               <b> Terminal:</b>{" "}
@@ -449,10 +461,10 @@ const Uses = () => (
             <li>
               <b> Markdown:</b>{" "}
               <a
-                href="https://www.typora.io/"
+                href="https://obsidian.md/"
                 target="_blank"
                 rel="noopener noreferrer">
-                Typora
+                Obsidian
               </a>
               .
             </li>
